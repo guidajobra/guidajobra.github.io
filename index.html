@@ -9,6 +9,7 @@
 <meta property="og:description" content="Candidature su misura ogni giorno, mentre tu vivi. Pronto in 5 minuti.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#050914">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1'%3E%3Cstop offset='0' stop-color='%23245ce8'/%3E%3Cstop offset='1' stop-color='%239b4fd0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <script>document.documentElement.classList.add('js')</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -553,7 +554,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
 .foot-pdf .ico{width:16px;height:16px}
 
 /* problemi più compatti */
-@media(min-width:1000px){.pains{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.pain h3{font-size:19px}.pain p{font-size:15px}}
+@media(min-width:900px){.pains{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.pain h3{font-size:19px}.pain p{font-size:15px}}
 @media(max-width:759px){
   .pains{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:0 -20px;padding:2px 20px 14px;scrollbar-width:none}
   .pains::-webkit-scrollbar{display:none}
@@ -703,12 +704,12 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         <div>
           <span class="gift-tag">PDF gratuito · 9 pagine</span>
           <b>Cosa pensa davvero il recruiter mentre ti fa le domande</b>
-          <small>Le 5 domande più frequenti decodificate, i 2 metodi per rispondere a tutto il resto e il test dei 90 secondi.</small>
+          <small>5 domande decodificate e i 2 metodi per rispondere.</small>
           <a class="btn-pdf" href="Segreti_dei_recruiter_colloquio.pdf" download target="_blank" rel="noopener"><svg class="ico"><use href="#i-dl"/></svg>Scarica il PDF gratis</a>
         </div>
       </div>
       <h1 class="rv" style="--d:.08s">Trova lavoro senza rubare <span class="sel">tempo<i></i><i></i></span> alla tua vita.</h1>
-      <p class="lead rv" style="--d:.16s">Jobra trova le offerte, adatta CV e lettera a ognuna e si candida a tuo nome. <b style="color:#fff">Tu ti riprendi le serate e pensi solo ai colloqui.</b></p>
+      <p class="lead rv" style="--d:.16s">Jobra trova le offerte, adatta CV e lettera e si candida a tuo nome. <b style="color:#fff">Tu fai solo i colloqui.</b></p>
       <div class="cta-row rv" style="--d:.24s" id="heroCta">
         <a class="btn btn-lg btn-glow go" href="https://jobra.it/?aff=DANZ">Inizia su jobra.it <span class="arr">→</span></a>
         <a class="btn btn-lg btn-ghost" href="#funzioni">Scopri le funzioni <svg class="ico"><use href="#i-down"/></svg></a>
@@ -761,9 +762,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
 <section class="dark grid-bg" id="riconosci">
   <div class="wrap">
     <div class="hd center">
-      <span class="eyebrow rv">Ti riconosci?</span>
-      <h2 class="rv" style="--d:.06s">Spunta quelle che conosci.<br>Ne basta <span class="sel">una<i></i><i></i></span>.</h2>
-      <p class="lead rv" style="--d:.12s">Sono le abitudini di chiunque cerchi lavoro senza un sistema.</p>
+      <h2 class="rv">Ti suona <span class="sel">familiare<i></i><i></i></span>?</h2>
     </div>
     <div class="pains">
       <article class="pain rv">
@@ -774,19 +773,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
             <div class="m-f"><span>Candidature inviate</span><b>3</b></div>
           </div>
         </div>
-        <div class="pain-tx"><h3>Il collezionista</h3><p>47 annunci salvati «per dopo». Candidature inviate: 3.</p></div>
-        <button class="me" type="button" aria-pressed="false"><span class="box"><svg class="ico"><use href="#i-check"/></svg></span>Sono io</button>
-      </article>
-      <article class="pain rv" style="--d:.08s">
-        <div class="pain-ui" data-demo="p2">
-          <div class="mini">
-            <div class="m-h"><svg class="ico"><use href="#i-inbox"/></svg>Posta in arrivo<span class="spin"></span></div>
-            <span class="r-when mono">13:05 · pausa pranzo</span>
-            <div class="r-box"><div class="r-empty"><svg class="ico"><use href="#i-inbox"/></svg>Nessun nuovo messaggio</div></div>
-          </div>
-        </div>
-        <div class="pain-tx"><h3>Il refresh</h3><p>Controlli la mail in pausa pranzo, al semaforo e prima di dormire. Niente.</p></div>
-        <button class="me" type="button" aria-pressed="false"><span class="box"><svg class="ico"><use href="#i-check"/></svg></span>Sono io</button>
+        <div class="pain-tx"><h3>Il collezionista</h3><p>47 annunci salvati, 3 candidature.</p></div>
       </article>
       <article class="pain rv">
         <div class="pain-ui" data-demo="p3">
@@ -797,8 +784,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
             <span class="lt-err">Azienda sbagliata</span>
           </div>
         </div>
-        <div class="pain-tx"><h3>Il copia-incolla</h3><p>Stesso CV, stessa lettera. Cambi solo il nome dell'azienda, quando te lo ricordi.</p></div>
-        <button class="me" type="button" aria-pressed="false"><span class="box"><svg class="ico"><use href="#i-check"/></svg></span>Sono io</button>
+        <div class="pain-tx"><h3>Il copia-incolla</h3><p>Stessa lettera, cambi solo il nome.</p></div>
       </article>
       <article class="pain rv" style="--d:.08s">
         <div class="pain-ui" data-demo="p4">
@@ -808,47 +794,10 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
             <svg class="spark" viewBox="0 0 260 56" preserveAspectRatio="none"><path class="up" d="M2 52 L40 46 L80 40 L120 30 L160 24 L200 14 L258 6"/><path class="flat" d="M2 52 H258"/></svg>
           </div>
         </div>
-        <div class="pain-tx"><h3>Il silenzio</h3><p>Decine di candidature, zero risposte. E inizi a pensare che il problema sia tu.</p></div>
-        <button class="me" type="button" aria-pressed="false"><span class="box"><svg class="ico"><use href="#i-check"/></svg></span>Sono io</button>
+        <div class="pain-tx"><h3>Il silenzio</h3><p>Decine di candidature, zero risposte.</p></div>
       </article>
     </div>
     <p class="swipe-hint">Scorri per vederle tutte <svg class="ico"><use href="#i-hand"/></svg></p>
-    <div class="pain-res" id="painRes">
-      <p class="no">Tocca <b>«Sono io»</b> sulle situazioni che ti somigliano.</p>
-      <div class="ok"><p><b class="pc">Ne hai spuntata una.</b> Non è un problema di volontà.</p><p>Qui sotto vediamo perché succede, e perché non è colpa tua.</p><div class="down" style="margin-top:20px"><svg class="ico"><use href="#i-down"/></svg></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- PERCHÉ SUCCEDE -->
-<section id="perche">
-  <div class="wrap">
-    <div class="hd">
-      <span class="eyebrow rv">Perché succede</span>
-      <h2 class="rv" style="--d:.06s">Non è pigrizia.<br>È <span class="sel">matematica<i></i><i></i></span>.</h2>
-      <p class="lead rv" style="--d:.12s">Una candidatura fatta bene è un piccolo progetto. E la sera, dopo otto ore di lavoro, rimandare è normale.</p>
-    </div>
-    <div class="math">
-      <div class="card rv" data-demo="calc">
-        <div class="card-h"><span>Una candidatura curata</span><b>≈ <span class="tot">60</span> min</b></div>
-        <div class="rows">
-          <div class="row"><span>Trovare l'offerta e capire se fa per te</span><b>15'</b><span class="bar"><i style="--w:75%;--i:0"></i></span></div>
-          <div class="row"><span>Adattare il CV all'annuncio</span><b>20'</b><span class="bar"><i style="--w:100%;--i:1"></i></span></div>
-          <div class="row"><span>Scrivere la lettera di presentazione</span><b>20'</b><span class="bar"><i style="--w:100%;--i:2"></i></span></div>
-          <div class="row"><span>Inviare e segnarti dove ti sei candidato</span><b>5'</b><span class="bar"><i style="--w:25%;--i:3"></i></span></div>
-        </div>
-        <p class="fine">Stima indicativa per una candidatura personalizzata a mano.</p>
-      </div>
-      <div class="card rv" style="--d:.08s" data-demo="cal">
-        <p class="cal-big"><span>10 candidature</span> = <span style="color:var(--brand)">10 ore</span></p>
-        <p class="cal-sub">Un'ora ogni sera, per due settimane lavorative.</p>
-        <div class="cal-grid">
-          <span class="dl">L</span><span class="dl">M</span><span class="dl">M</span><span class="dl">G</span><span class="dl">V</span>
-          <span class="cell" style="--i:0">1h</span><span class="cell" style="--i:1">1h</span><span class="cell" style="--i:2">1h</span><span class="cell" style="--i:3">1h</span><span class="cell" style="--i:4">1h</span>
-          <span class="cell" style="--i:5">1h</span><span class="cell" style="--i:6">1h</span><span class="cell" style="--i:7">1h</span><span class="cell" style="--i:8">1h</span><span class="cell" style="--i:9">1h</span>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -863,7 +812,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
     <div class="hd center">
       <span class="eyebrow pill rv"><span class="dot"></span>La soluzione</span>
       <h2 class="rv" style="--d:.06s">E se le candidature partissero mentre <span class="sel">dormi<i></i><i></i></span>?</h2>
-      <p class="lead rv" style="--d:.12s">Pilota automatico per la tua ricerca: Jobra trova le offerte, adatta CV e lettera e le invia a tuo nome. A te restano i colloqui.</p>
+      <p class="lead rv" style="--d:.12s">Jobra trova, adatta e invia. A te restano i colloqui.</p>
     </div>
     <div class="pipe-box rv" data-demo="pipe">
       <div class="pipe-top"><span class="live"><i></i>Jobra al lavoro</span><span class="tag">Esempio</span></div>
@@ -876,11 +825,6 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         <div class="node"><span class="n-ic"><svg class="ico"><use href="#i-mail"/></svg></span><div><b>Colloquio</b><small>«Hai 20 minuti giovedì?»</small></div></div>
       </div>
     </div>
-    <div class="steps3">
-      <div class="step rv"><span class="k">1</span><div><b>Carichi il CV che hai già</b><span>E scegli ruolo, zona e stipendio minimo.</span></div></div>
-      <div class="step rv" style="--d:.08s"><span class="k">2</span><div><b>Jobra prepara le candidature</b><span>CV e lettera su misura per ogni offerta.</span></div></div>
-      <div class="step rv" style="--d:.16s"><span class="k">3</span><div><b>Tu approvi e fai i colloqui</b><span>Le risposte arrivano nella tua email.</span></div></div>
-    </div>
     <p class="fine" style="text-align:center;margin-top:16px">Schermata di esempio: nomi e orari sono di fantasia.</p>
   </div>
 </section>
@@ -891,7 +835,6 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
     <div class="hd center">
       <span class="eyebrow rv">Le 5 funzioni</span>
       <h2 class="rv" style="--d:.06s">Il lavoro noioso lo fa <span class="sel">Jobra<i></i><i></i></span>.</h2>
-      <p class="lead rv" style="--d:.12s">Ecco cosa ci guadagni, funzione per funzione. Le decisioni restano tue.</p>
     </div>
 
     <div class="feats">
@@ -900,12 +843,10 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         <div class="feat-tx">
           <span class="eyebrow rv"><span class="num">1</span>Auto candidature</span>
           <h3 class="rv" style="--d:.06s">Candidature ogni giorno. Decidi tu chi preme invio.</h3>
-          <p class="rv" style="--d:.1s">Ogni mattina trovi le candidature già pronte. Le approvi con uno swipe, o lasci che partano da sole.</p>
           <div class="modes rv" style="--d:.14s">
-            <button class="mode on" type="button" data-mode="approve" aria-pressed="true"><span class="mode-h"><b>Approvi tu</b><span class="badge">Si parte da qui</span></span><span>Parte solo quello che sposti a destra.</span></button>
-            <button class="mode" type="button" data-mode="auto" aria-pressed="false"><span class="mode-h"><b>Invio automatico</b></span><span>Si candida da solo dalle 7 alle 21, entro le regole che scegli tu.</span></button>
+            <button class="mode on" type="button" data-mode="approve" aria-pressed="true"><span class="mode-h"><b>Approvi tu</b><span class="badge">Si parte da qui</span></span><span>Parte solo ciò che approvi.</span></button>
+            <button class="mode" type="button" data-mode="auto" aria-pressed="false"><span class="mode-h"><b>Invio automatico</b></span><span>Si candida da solo, dalle 7 alle 21.</span></button>
           </div>
-          <p class="try rv" style="--d:.16s"><svg class="ico"><use href="#i-hand"/></svg>Provalo: trascina la scheda o tocca una modalità.</p>
           <div class="gain rv" style="--d:.18s"><span class="gi"><svg class="ico"><use href="#i-up"/></svg></span><div><small>Ci guadagni</small><b>Le ore che passavi a candidarti, ogni sera.</b></div></div>
         </div>
         <div class="feat-demo rv" style="--d:.1s"><div class="stage">
@@ -924,7 +865,6 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         <div class="feat-tx">
           <span class="eyebrow rv"><span class="num">2</span>Solo su Jobra</span>
           <h3 class="rv" style="--d:.06s">I lavori che nessuno trova. Jobra sì.</h3>
-          <p class="rv" style="--d:.1s">Jobra trova anche le offerte che non vedi sui soliti siti di annunci, vicino a te e nel tuo settore.</p>
           <div class="gain rv" style="--d:.14s"><span class="gi"><svg class="ico"><use href="#i-up"/></svg></span><div><small>Ci guadagni</small><b>Meno concorrenza, e arrivi prima degli altri.</b></div></div>
         </div>
         <div class="feat-demo rv" style="--d:.1s"><div class="stage">
@@ -953,31 +893,9 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
       <!-- F3 -->
       <div class="feat">
         <div class="feat-tx">
-          <span class="eyebrow rv"><span class="num">3</span>CV su misura</span>
-          <h3 class="rv" style="--d:.06s">Un CV diverso per ogni annuncio.</h3>
-          <p class="rv" style="--d:.1s">Per ogni annuncio, il titolo giusto e in cima le competenze richieste. Solo dalla tua esperienza vera.</p>
-          <div class="bigstat rv" style="--d:.18s"><b class="c55">+55%</b><span>di colloqui con un CV su misura<small>Fonte: Huntr, 2025 Annual Job Search Trends Report, citato su jobra.it</small></span></div>
-        </div>
-        <div class="feat-demo rv" style="--d:.1s"><div class="stage">
-          <div class="demo cvd" data-demo="cv">
-            <div class="cv-ads"><span class="l">Annuncio</span><button class="ad on" type="button">Content Manager</button><button class="ad" type="button">Marketing Specialist</button><button class="ad" type="button">Social Media Manager</button></div>
-            <div class="cv-doc">
-              <div class="cv-h"><span class="av"></span><div><b>Il tuo nome</b><span class="cv-title">Content Manager</span></div><span class="tag">Su misura</span></div>
-              <div class="cv-sec"><span class="l">In cima: quello che l'annuncio chiede</span><div class="cv-skills"></div></div>
-              <div class="cv-sec"><span class="l">Esperienza</span><div class="skl"><i style="width:92%"></i><i style="width:80%"></i><i style="width:64%"></i></div></div>
-            </div>
-            <div class="cv-meta"><span>Inviato a: <b class="cv-to">Officina Verde</b></span><span class="mono cv-file">cv_officina-verde.pdf</span></div>
-          </div>
-          <div class="demo-foot"><span>Esempio: nomi e aziende sono di fantasia.</span></div>
-        </div></div>
-      </div>
-
-      <!-- F4 -->
-      <div class="feat rev">
-        <div class="feat-tx">
-          <span class="eyebrow rv"><span class="num">4</span>Controllo ATS</span>
-          <h3 class="rv" style="--d:.06s">Il tuo CV potrebbe essere scartato prima che qualcuno lo legga.</h3>
-          <p class="rv" style="--d:.1s">Vedi il punteggio ATS e le parole chiave che mancano. Jobra sistema il CV con un clic.</p>
+          <span class="eyebrow rv"><span class="num">3</span>CV su misura e ATS</span>
+          <h3 class="rv" style="--d:.06s">Un CV su misura che supera i filtri.</h3>
+          <div class="bigstat rv" style="--d:.1s"><b class="c55">+55%</b><span>di colloqui con un CV su misura<small>Fonte: Huntr, 2025 Annual Job Search Trends Report, citato su jobra.it</small></span></div>
           <div class="gain rv" style="--d:.14s"><span class="gi"><svg class="ico"><use href="#i-up"/></svg></span><div><small>Ci guadagni</small><b>Meno CV scartati prima ancora di essere letti.</b></div></div>
         </div>
         <div class="feat-demo rv" style="--d:.1s"><div class="stage">
@@ -1004,31 +922,11 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         </div></div>
       </div>
 
-      <!-- F5 -->
-      <div class="feat">
-        <div class="feat-tx">
-          <span class="eyebrow rv"><span class="num">5</span>Kit candidatura</span>
-          <h3 class="rv" style="--d:.06s">Addio pagina bianca. Il kit è già pronto.</h3>
-          <p class="rv" style="--d:.1s">Per ogni offerta, CV su misura e lettera personalizzata già scritti. Tu rileggi e invii.</p>
-          <div class="gain rv" style="--d:.14s"><span class="gi"><svg class="ico"><use href="#i-up"/></svg></span><div><small>Ci guadagni</small><b>Niente più pagina bianca alle 23: la lettera è già scritta.</b></div></div>
-        </div>
-        <div class="feat-demo rv" style="--d:.1s"><div class="stage">
-          <div class="demo kit" data-demo="kit">
-            <div class="kit-bar"><i></i><i></i><i></i><span class="mono">Kit candidatura · Officina Verde</span></div>
-            <div class="kit-tabs"><span class="on">Lettera</span><span>CV su misura</span></div>
-            <p class="typed"></p>
-            <ul class="kit-check"><li><svg class="ico"><use href="#i-check"/></svg>CV su misura</li><li><svg class="ico"><use href="#i-check"/></svg>Lettera personalizzata</li><li><svg class="ico"><use href="#i-check"/></svg>Controllo ATS 88</li><li><svg class="ico"><use href="#i-check"/></svg>Pronto da rileggere</li></ul>
-          </div>
-          <div class="demo-foot"><span>Esempio: nomi e aziende sono di fantasia.</span></div>
-        </div></div>
-      </div>
-
-      <!-- F6 -->
+      <!-- F4 -->
       <div class="feat rev">
         <div class="feat-tx">
-          <span class="eyebrow rv"><span class="num">6</span>Simulatore di colloquio</span>
+          <span class="eyebrow rv"><span class="num">4</span>Simulatore di colloquio</span>
           <h3 class="rv" style="--d:.06s">Arriva al colloquio già allenato.</h3>
-          <p class="rv" style="--d:.1s">Domande del tuo ruolo, con un voto e un commento su ogni risposta.</p>
           <div class="gain rv" style="--d:.14s"><span class="gi"><svg class="ico"><use href="#i-up"/></svg></span><div><small>Ci guadagni</small><b>Al colloquio vero arrivi già allenato.</b></div></div>
         </div>
         <div class="feat-demo rv" style="--d:.1s"><div class="stage">
@@ -1046,57 +944,6 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         </div></div>
       </div>
     </div>
-    <div class="hd center bento-hd">
-      <span class="eyebrow rv">E non finisce qui</span>
-      <h2 class="rv" style="--d:.06s">Dalla prima ricerca al colloquio, è tutto <span class="sel">qui<i></i><i></i></span>.</h2>
-    </div>
-    <div class="bento">
-      <div class="tile rv" data-demo="rules">
-        <div class="tl-ui"><div class="rules">
-          <div class="rule" style="--i:0"><span>Ruoli</span><b>Marketing · Content</b><i class="tg"></i></div>
-          <div class="rule" style="--i:1"><span>Zona</span><b>Milano o da remoto</b><i class="tg"></i></div>
-          <div class="rule" style="--i:2"><span>Stipendio minimo</span><b>32.000 € RAL</b><i class="tg"></i></div>
-          <div class="rule" style="--i:3"><span>Limite giornaliero</span><b>10 candidature</b><i class="tg"></i></div>
-          <div class="rule" style="--i:4"><span>Orari di invio</span><b>7:00 – 21:00</b><i class="tg"></i></div>
-          <div class="rules-f"><span>❚❚ Metti in pausa</span><span>Cambia modo</span></div>
-        </div></div>
-        <h4>Regole dell'agente</h4>
-        <p>Decidi tu dove si muove Jobra: ruoli, zone, stipendio minimo e limite giornaliero. Lo metti in pausa o cambi modalità quando vuoi.</p>
-      </div>
-      <div class="tile rv" style="--d:.08s" data-demo="stealth">
-        <div class="tl-ui"><span class="stl-badge"><i></i>Stealth attiva</span><ul class="stl">
-          <li><span class="lg" style="background:#245ce8">S</span><div><b>Studio Nord</b><small>Marketing Specialist</small></div><span class="sc2">92</span></li>
-          <li class="me-co"><span class="lg" style="background:#64748b">A</span><div><b>La tua azienda attuale</b><small>Non compare mai</small></div><span class="hid">Nascosta</span></li>
-          <li><span class="lg" style="background:#9b4fd0">C</span><div><b>Casa Lumi</b><small>Content Manager</small></div><span class="sc2">88</span></li>
-        </ul></div>
-        <h4>Modalità stealth</h4>
-        <p>La tua azienda attuale non compare mai nelle tue ricerche né nelle tue candidature.</p>
-      </div>
-      <div class="tile rv" data-demo="board">
-        <div class="tl-ui"><div class="board">
-          <div class="bd-n"><div><b class="c1">18</b><span>Inviate</span></div><div><b class="c2">4</b><span>Risposte</span></div><div><b class="c3">1</b><span>Colloqui</span></div></div>
-          <div class="bd-mail"><span class="fi g"><svg class="ico"><use href="#i-mail"/></svg></span><div><b>Studio Nord ha risposto</b><small>Richiesta di colloquio · nella tua email</small></div></div>
-        </div></div>
-        <h4>Ogni risposta, in un posto solo</h4>
-        <p>Le risposte arrivano nella tua email e le ritrovi in bacheca, accanto a quello che hai inviato.</p>
-      </div>
-      <div class="tile rv" style="--d:.08s" data-demo="sheet">
-        <div class="tl-ui"><div class="sh">
-          <div class="sh-h" style="--i:0"><b>Colloquio · Studio Nord</b><span>giovedì, ore 14</span></div>
-          <span class="sh-l" style="--i:1">Probabilmente ti chiederanno</span>
-          <p class="sh-q" style="--i:2">Raccontami una campagna che non è andata come previsto.</p>
-          <span class="sh-l" style="--i:3">Chiedi tu</span>
-          <p class="sh-q" style="--i:4">Come misurerete il successo nei primi 90 giorni?</p>
-          <div class="sh-ok" style="--i:5">✓ Ringraziamento pronto per domani</div>
-        </div></div>
-        <h4>La scheda per ogni colloquio</h4>
-        <p>Hai ottenuto il colloquio? Jobra ti prepara: cosa gli hai inviato, le domande probabili, cosa chiedere tu e il ringraziamento per il giorno dopo.</p>
-      </div>
-      <div class="tile wide rv">
-        <h4>E ancora</h4>
-        <div class="incl"><span>Ottimizzazione LinkedIn</span><span>Test logici</span><span>Smart timing</span><span>Report del lunedì</span><span>Kit candidatura</span><span>Formato CV leggibile dagli ATS</span></div>
-        <p class="fine">Alcune funzioni dipendono dal piano. Schermate di esempio.</p>
-      </div>
     </div>
   </div>
 </section>
@@ -1105,31 +952,11 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
 <div class="mid">
   <div class="wrap">
     <div class="mid-box rv">
-      <h3>Tutto questo, con un'impostazione da 5 minuti.</h3>
-      <p>Parti approvando tu ogni candidatura. Il resto lo decidi dopo.</p>
+      <h3>Pronto in 5 minuti. Disdici quando vuoi.</h3>
       <a class="btn btn-lg go" href="https://jobra.it/?aff=DANZ">Inizia su jobra.it <span class="arr">→</span></a>
     </div>
   </div>
 </div>
-
-<!-- SETTIMANA -->
-<section class="dark grid-bg" id="settimana">
-  <div class="wrap">
-    <div class="hd center">
-      <span class="eyebrow rv">Immagina la prossima settimana</span>
-      <h2 class="rv" style="--d:.06s">Cinque giorni.<br>Le serate restano <span class="sel">tue<i></i><i></i></span>.</h2>
-    </div>
-    <div class="week" data-demo="week">
-      <div class="wk-line"><i></i></div>
-      <div class="day" style="--i:0"><span class="d">Lun</span><div class="day-c"><span class="w">21:30 · 5 minuti</span><p>Carichi il CV che hai già, scegli ruolo, zona e stipendio minimo. Per iniziare, approvi tu.</p></div></div>
-      <div class="day" style="--i:1"><span class="d">Mar</span><div class="day-c"><span class="w">7:30 · caffè</span><p>Trovi le prime candidature pronte. Mandi quelle che ti convincono con uno swipe.</p></div></div>
-      <div class="day" style="--i:2"><span class="d">Mer</span><div class="day-c"><span class="w">Pausa pranzo</span><p>Il controllo ATS ti segnala due parole chiave mancanti. Le sistemi in un minuto.</p></div></div>
-      <div class="day star" style="--i:3"><span class="d">Gio</span><div class="day-c"><span class="w">10:41 · nella tua email</span><p>Un'azienda ti risponde: vuole fissare un colloquio.</p></div></div>
-      <div class="day" style="--i:4"><span class="d">Ven</span><div class="day-c"><span class="w">Sera</span><p>Quindici minuti di colloquio simulato. Poi chiudi il portatile ed esci.</p></div></div>
-    </div>
-    <p class="fine">Esempio: i tempi dipendono dal tuo settore, dalla tua zona e dalle offerte disponibili.</p>
-  </div>
-</section>
 
 <!-- FAQ -->
 <section id="faq">
@@ -1142,7 +969,6 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
       <details class="rv" open><summary>Si capirà che l'ha scritto un'IA?<span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="a">Jobra scrive partendo dal tuo CV vero e dall'annuncio, senza modelli e senza inventare nulla. CV e lettere puoi leggerli e modificarli.</p></details>
       <details class="rv"><summary>Si candiderà a offerte che non voglio?<span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="a">Scegli tu ruoli, zone, stipendio minimo e limite giornaliero. E se vuoi approvi tu: parte solo quello che sposti a destra.</p></details>
       <details class="rv"><summary>La mia azienda attuale può scoprirlo?<span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="a">Con la modalità stealth la tua azienda non compare mai nelle ricerche né nelle candidature.</p></details>
-      <details class="rv"><summary>Dove arrivano le risposte?<span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="a">Nella tua email. Le ritrovi anche nella bacheca, accanto a quello che hai inviato.</p></details>
       <details class="rv"><summary>E se non fa per me?<span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="a">Disdici quando vuoi.</p></details>
     </div>
   </div>
@@ -1156,32 +982,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
       <h2 class="rv" style="--d:.06s">Stasera, 5 minuti.<br>Domani mattina, le prime <span class="sel">candidature<i></i><i></i></span>.</h2>
     </div>
     <div class="final-grid">
-      <div class="panel rv">
-        <span class="eyebrow">Cosa ci guadagni iscrivendoti</span>
-        <ul class="recap">
-          <li><svg class="ico"><use href="#i-check"/></svg>Ore libere ogni sera: le candidature le prepara Jobra</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>Più colloqui, con un CV su misura per ogni annuncio</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>Meno CV scartati dai filtri automatici</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>Offerte che gli altri non vedono</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>Arrivi al colloquio già allenato</li>
-        </ul>
-      </div>
-      <div class="panel rv" style="--d:.08s">
-        <span class="eyebrow">Decidi adesso quando lo fai</span>
-        <label class="intent-row" for="when">Stasera alle <input type="time" id="when" value="21:30"></label>
-        <div class="intent-btns">
-          <button class="sbtn" type="button" id="ics"><svg class="ico"><use href="#i-cal"/></svg>Aggiungi al calendario</button>
-          <a class="sbtn" id="gcal" href="#" target="_blank" rel="noopener">Google Calendar</a>
-        </div>
-        <p class="intent-ok" id="intentOk" aria-live="polite"></p>
-        <p class="small">Chi fissa un orario ha molte più probabilità di farlo davvero.</p>
-      </div>
       <div class="go-box rv" id="finalCta">
-        <ol class="go-steps">
-          <li><span class="k">1</span>Vai su jobra.it</li>
-          <li><span class="k">2</span>Carica il CV e scegli ruolo, zona e stipendio</li>
-          <li><span class="k">3</span>Domattina approvi le prime candidature</li>
-        </ol>
         <a class="btn btn-lg btn-glow go" href="https://jobra.it/?aff=DANZ">Inizia su jobra.it <span class="arr">→</span></a>
         <div class="micro" style="justify-content:center">
           <span><svg class="ico"><use href="#i-check"/></svg>Pronto in 5 minuti</span>
@@ -1498,38 +1299,6 @@ const JOBRA_URL = 'https://jobra.it/?aff=DANZ';
   }), { threshold: .25 });
   $$('[data-demo]').forEach(el => live.observe(el));
 
-  /* ---- spunte «Sono io» ---- */
-  const res = $('#painRes');
-  $$('.me').forEach(b => b.addEventListener('click', () => {
-    const on = b.getAttribute('aria-pressed') !== 'true'; b.setAttribute('aria-pressed', on); b.closest('.pain').classList.toggle('checked', on);
-    const n = $$('.me[aria-pressed=true]').length; res.classList.toggle('has', n > 0);
-    $('.pc', res).textContent = n === 1 ? 'Ne hai spuntata una.' : n === 4 ? 'Le hai spuntate tutte e quattro.' : `Ne hai spuntate ${n}.`;
-  }));
-
-  /* ---- promemoria: intenzione di implementazione ---- */
-  const when = $('#when'), ok = $('#intentOk'), gcal = $('#gcal');
-  const TITLE = '5 minuti per la ricerca di lavoro (Jobra)';
-  const DESC = 'Vai su ' + JOBRA_URL + ', carica il CV e scegli ruolo, zona e stipendio. Domattina approvi le prime candidature.';
-  const p2 = n => String(n).padStart(2, '0');
-  const stamp = d => d.getFullYear() + p2(d.getMonth() + 1) + p2(d.getDate()) + 'T' + p2(d.getHours()) + p2(d.getMinutes()) + '00';
-  function slot(){
-    const [h, m] = (when.value || '21:30').split(':').map(Number);
-    const s = new Date(); s.setHours(h, m, 0, 0); let tomorrow = false;
-    if (s < new Date()){ s.setDate(s.getDate() + 1); tomorrow = true; }
-    return { s, e: new Date(s.getTime() + 15 * 60000), tomorrow, label: p2(h) + ':' + p2(m) };
-  }
-  function syncG(){ const { s, e } = slot(); gcal.href = 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + encodeURIComponent(TITLE) + '&dates=' + stamp(s) + '/' + stamp(e) + '&details=' + encodeURIComponent(DESC); }
-  when.addEventListener('input', syncG); syncG();
-  gcal.addEventListener('click', () => { const { tomorrow, label } = slot(); ok.textContent = `Fissato: ${tomorrow ? 'domani' : 'stasera'} alle ${label}.`; });
-  $('#ics').addEventListener('click', () => {
-    const { s, e, tomorrow, label } = slot(), now = new Date();
-    const utc = now.toISOString().replace(/[-:]/g, '').replace(/\.\d+/, '');
-    const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Guida a Jobra//IT', 'CALSCALE:GREGORIAN', 'BEGIN:VEVENT', 'UID:promemoria-' + now.getTime() + '@guida-jobra', 'DTSTAMP:' + utc, 'DTSTART:' + stamp(s), 'DTEND:' + stamp(e), 'SUMMARY:' + TITLE, 'DESCRIPTION:' + DESC.replace(/,/g, '\\,'), 'URL:' + JOBRA_URL, 'BEGIN:VALARM', 'TRIGGER:-PT0M', 'ACTION:DISPLAY', 'DESCRIPTION:È il momento dei tuoi 5 minuti', 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
-    const url = URL.createObjectURL(new Blob([ics], { type: 'text/calendar;charset=utf-8' }));
-    const a = document.createElement('a'); a.href = url; a.download = 'promemoria-jobra.ics'; document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 4000);
-    ok.textContent = `Fissato: ${tomorrow ? 'domani' : 'stasera'} alle ${label}. Apri il file per aggiungerlo al calendario.`;
-  });
 })();
 </script>
 </body>
