@@ -644,6 +644,13 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
 .sh > *{opacity:0;transform:translateY(6px);transition:opacity .4s calc(var(--i)*.25s),transform .4s calc(var(--i)*.25s)}
 .on .sh > *{opacity:1;transform:none}
 
+/* Ci guadagni */
+.gain{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:linear-gradient(90deg,#e3f7ef,#edf3ff);border:1px solid #c6ecd9}
+.gain .gi{flex:none;width:36px;height:36px;border-radius:11px;display:grid;place-items:center;background:var(--green);color:#fff;box-shadow:0 8px 18px -8px rgba(14,182,124,.8)}
+.gain .gi .ico{width:19px;height:19px;stroke-width:2.6}
+.gain small{display:block;margin-bottom:2px;font:700 10.5px/1.2 'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#047857}
+.gain b{display:block;font:800 17px/1.3 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;color:var(--ink)}
+
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;transition-delay:0s!important;scroll-behavior:auto!important}
   .js .rv{opacity:1;transform:none}
@@ -672,6 +679,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
   <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></symbol>
   <symbol id="i-hand" viewBox="0 0 24 24"><path d="M5 12h12M13 7l5 5-5 5"/></symbol>
   <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 10-2.3 5.7"/><path d="M20 4v7h-7"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></symbol>
   <symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5"/><path d="M5 20h14"/></symbol>
   <symbol id="i-inbox" viewBox="0 0 24 24"><path d="M3 13l3-8h12l3 8v6H3z"/><path d="M3 13h5l1.5 2.5h5L16 13h5"/></symbol>
 </svg>
@@ -700,7 +708,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         </div>
       </div>
       <h1 class="rv" style="--d:.08s">Trova lavoro senza rubare <span class="sel">tempo<i></i><i></i></span> alla tua vita.</h1>
-      <p class="lead rv" style="--d:.16s">Per chi cerca lavoro la sera, dopo il lavoro, e ha la sensazione di non arrivare da nessuna parte. Jobra trova le offerte, adatta CV e lettera a ognuna e si candida a tuo nome. <b style="color:#fff">Tu decidi quanto controllo tenere.</b></p>
+      <p class="lead rv" style="--d:.16s">Jobra trova le offerte, adatta CV e lettera a ognuna e si candida a tuo nome. <b style="color:#fff">Tu ti riprendi le serate e pensi solo ai colloqui.</b></p>
       <div class="cta-row rv" style="--d:.24s" id="heroCta">
         <a class="btn btn-lg btn-glow go" href="https://jobra.it/?aff=DANZ">Inizia su jobra.it <span class="arr">→</span></a>
         <a class="btn btn-lg btn-ghost" href="#funzioni">Scopri le funzioni <svg class="ico"><use href="#i-down"/></svg></a>
@@ -818,7 +826,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
     <div class="hd">
       <span class="eyebrow rv">Perché succede</span>
       <h2 class="rv" style="--d:.06s">Non è pigrizia.<br>È <span class="sel">matematica<i></i><i></i></span>.</h2>
-      <p class="lead rv" style="--d:.12s">Una candidatura fatta bene è un piccolo progetto. E la sera, dopo otto ore di lavoro, la lucidità è finita: si chiama <b>affaticamento decisionale</b>, e rimandare è la reazione normale del cervello.</p>
+      <p class="lead rv" style="--d:.12s">Una candidatura fatta bene è un piccolo progetto. E la sera, dopo otto ore di lavoro, rimandare è normale.</p>
     </div>
     <div class="math">
       <div class="card rv" data-demo="calc">
@@ -855,7 +863,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
     <div class="hd center">
       <span class="eyebrow pill rv"><span class="dot"></span>La soluzione</span>
       <h2 class="rv" style="--d:.06s">E se le candidature partissero mentre <span class="sel">dormi<i></i><i></i></span>?</h2>
-      <p class="lead rv" style="--d:.12s">Jobra mette la tua ricerca in pilota automatico: trova le offerte compatibili, adatta CV e lettera a ognuna e le invia a tuo nome. Tu scegli quanto controllo tenere, e fai i colloqui.</p>
+      <p class="lead rv" style="--d:.12s">Pilota automatico per la tua ricerca: Jobra trova le offerte, adatta CV e lettera e le invia a tuo nome. A te restano i colloqui.</p>
     </div>
     <div class="pipe-box rv" data-demo="pipe">
       <div class="pipe-top"><span class="live"><i></i>Jobra al lavoro</span><span class="tag">Esempio</span></div>
@@ -883,7 +891,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
     <div class="hd center">
       <span class="eyebrow rv">Le 5 funzioni</span>
       <h2 class="rv" style="--d:.06s">Il lavoro noioso lo fa <span class="sel">Jobra<i></i><i></i></span>.</h2>
-      <p class="lead rv" style="--d:.12s">Sei funzioni principali, più tutto il resto. Ognuna ti toglie un pezzo di fatica, le decisioni restano tue.</p>
+      <p class="lead rv" style="--d:.12s">Ecco cosa ci guadagni, funzione per funzione. Le decisioni restano tue.</p>
     </div>
 
     <div class="feats">
@@ -892,13 +900,13 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         <div class="feat-tx">
           <span class="eyebrow rv"><span class="num">1</span>Auto candidature</span>
           <h3 class="rv" style="--d:.06s">Candidature ogni giorno. Decidi tu chi preme invio.</h3>
-          <p class="rv" style="--d:.1s">Ogni giorno Jobra trova le offerte adatte a te e prepara la candidatura completa. Tu scegli come farla partire.</p>
+          <p class="rv" style="--d:.1s">Ogni mattina trovi le candidature già pronte. Le approvi con uno swipe, o lasci che partano da sole.</p>
           <div class="modes rv" style="--d:.14s">
-            <button class="mode on" type="button" data-mode="approve" aria-pressed="true"><span class="mode-h"><b>Approvi tu</b><span class="badge">Si parte da qui</span></span><span>Ogni candidatura arriva già pronta. Parte solo quello che sposti a destra.</span></button>
-            <button class="mode" type="button" data-mode="auto" aria-pressed="false"><span class="mode-h"><b>Invio automatico</b></span><span>Jobra si candida da solo, dalle 7 alle 21, entro ruoli, zone, stipendio e limite giornaliero che scegli tu.</span></button>
+            <button class="mode on" type="button" data-mode="approve" aria-pressed="true"><span class="mode-h"><b>Approvi tu</b><span class="badge">Si parte da qui</span></span><span>Parte solo quello che sposti a destra.</span></button>
+            <button class="mode" type="button" data-mode="auto" aria-pressed="false"><span class="mode-h"><b>Invio automatico</b></span><span>Si candida da solo dalle 7 alle 21, entro le regole che scegli tu.</span></button>
           </div>
           <p class="try rv" style="--d:.16s"><svg class="ico"><use href="#i-hand"/></svg>Provalo: trascina la scheda o tocca una modalità.</p>
-          <div class="why rv" style="--d:.18s"><span class="eyebrow">Perché funziona</span><p>Fidarsi di un sistema nuovo richiede tempo, ed è normale. Parti approvando tu: vedi quali offerte sceglie Jobra e come scrive. <b>Quando ti convince, attivi l'invio automatico.</b> La fiducia si costruisce sui fatti, un passo alla volta.</p></div>
+          <div class="gain rv" style="--d:.18s"><span class="gi"><svg class="ico"><use href="#i-up"/></svg></span><div><small>Ci guadagni</small><b>Le ore che passavi a candidarti, ogni sera.</b></div></div>
         </div>
         <div class="feat-demo rv" style="--d:.1s"><div class="stage">
           <div class="demo sw" data-demo="swipe" data-mode="approve">
@@ -916,11 +924,8 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         <div class="feat-tx">
           <span class="eyebrow rv"><span class="num">2</span>Solo su Jobra</span>
           <h3 class="rv" style="--d:.06s">I lavori che nessuno trova. Jobra sì.</h3>
-          <p class="rv" style="--d:.1s">Sui siti di annunci vi contendete tutti le stesse offerte. Jobra trova anche le posizioni che non vedi altrove, vicino a te e nel tuo settore, e ti fa arrivare prima degli altri.</p>
-          <ul class="checks rv" style="--d:.14s">
-            <li><svg class="ico"><use href="#i-check"/></svg>Meno concorrenza: offerte che gli altri non vedono.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Vicino a te: vedi subito a quanti km è ogni azienda.</li>
-          </ul>
+          <p class="rv" style="--d:.1s">Jobra trova anche le offerte che non vedi sui soliti siti di annunci, vicino a te e nel tuo settore.</p>
+          <div class="gain rv" style="--d:.14s"><span class="gi"><svg class="ico"><use href="#i-up"/></svg></span><div><small>Ci guadagni</small><b>Meno concorrenza, e arrivi prima degli altri.</b></div></div>
         </div>
         <div class="feat-demo rv" style="--d:.1s"><div class="stage">
           <div class="demo radar" data-demo="radar">
@@ -950,11 +955,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         <div class="feat-tx">
           <span class="eyebrow rv"><span class="num">3</span>CV su misura</span>
           <h3 class="rv" style="--d:.06s">Un CV diverso per ogni annuncio.</h3>
-          <p class="rv" style="--d:.1s">Jobra parte dal tuo profilo e adatta il CV a quella posizione: il titolo giusto, preso dalla tua esperienza, e in cima le competenze che l'annuncio chiede. E ogni candidatura parte con la sua lettera.</p>
-          <ul class="checks rv" style="--d:.14s">
-            <li><svg class="ico"><use href="#i-check"/></svg>Niente di inventato: usa solo la tua esperienza vera.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Vedi esattamente quale documento è stato inviato a ogni azienda.</li>
-          </ul>
+          <p class="rv" style="--d:.1s">Per ogni annuncio, il titolo giusto e in cima le competenze richieste. Solo dalla tua esperienza vera.</p>
           <div class="bigstat rv" style="--d:.18s"><b class="c55">+55%</b><span>di colloqui con un CV su misura<small>Fonte: Huntr, 2025 Annual Job Search Trends Report, citato su jobra.it</small></span></div>
         </div>
         <div class="feat-demo rv" style="--d:.1s"><div class="stage">
@@ -976,8 +977,8 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         <div class="feat-tx">
           <span class="eyebrow rv"><span class="num">4</span>Controllo ATS</span>
           <h3 class="rv" style="--d:.06s">Il tuo CV potrebbe essere scartato prima che qualcuno lo legga.</h3>
-          <p class="rv" style="--d:.1s">Incolli un annuncio e vedi il punteggio ATS, le parole chiave che hai, quelle che mancano e cosa cambiare. Poi Jobra sistema il CV con un clic, partendo dalla tua esperienza vera.</p>
-          <div class="why rv" style="--d:.14s"><span class="eyebrow">Perché ti aiuta</span><p>Il silenzio dopo una candidatura fa pensare «non sono abbastanza». Spesso invece il CV non ha superato il filtro automatico. Sapere cosa correggere trasforma il rifiuto in un <b>problema tecnico</b>, e i problemi tecnici si risolvono.</p></div>
+          <p class="rv" style="--d:.1s">Vedi il punteggio ATS e le parole chiave che mancano. Jobra sistema il CV con un clic.</p>
+          <div class="gain rv" style="--d:.14s"><span class="gi"><svg class="ico"><use href="#i-up"/></svg></span><div><small>Ci guadagni</small><b>Meno CV scartati prima ancora di essere letti.</b></div></div>
         </div>
         <div class="feat-demo rv" style="--d:.1s"><div class="stage">
           <div class="demo ats low" data-demo="ats">
@@ -1008,12 +1009,8 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         <div class="feat-tx">
           <span class="eyebrow rv"><span class="num">5</span>Kit candidatura</span>
           <h3 class="rv" style="--d:.06s">Addio pagina bianca. Il kit è già pronto.</h3>
-          <p class="rv" style="--d:.1s">Per ogni offerta Jobra costruisce il kit candidatura: il CV su misura e una lettera di presentazione personalizzata, scritta partendo dal tuo CV e da quell'annuncio. Breve, specifica, senza frasi fatte.</p>
-          <ul class="checks rv" style="--d:.14s">
-            <li><svg class="ico"><use href="#i-check"/></svg>Breve e specifica: parla di quell'azienda e di quel ruolo.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Scritta partendo dalla tua esperienza vera.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Puoi leggerla e modificarla prima che parta.</li>
-          </ul>
+          <p class="rv" style="--d:.1s">Per ogni offerta, CV su misura e lettera personalizzata già scritti. Tu rileggi e invii.</p>
+          <div class="gain rv" style="--d:.14s"><span class="gi"><svg class="ico"><use href="#i-up"/></svg></span><div><small>Ci guadagni</small><b>Niente più pagina bianca alle 23: la lettera è già scritta.</b></div></div>
         </div>
         <div class="feat-demo rv" style="--d:.1s"><div class="stage">
           <div class="demo kit" data-demo="kit">
@@ -1031,8 +1028,8 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
         <div class="feat-tx">
           <span class="eyebrow rv"><span class="num">6</span>Simulatore di colloquio</span>
           <h3 class="rv" style="--d:.06s">Arriva al colloquio già allenato.</h3>
-          <p class="rv" style="--d:.1s">Ti alleni con le domande del tuo ruolo e ricevi un voto e un commento su ogni risposta. Domanda, risposta, valutazione.</p>
-          <div class="why rv" style="--d:.18s"><span class="eyebrow">Perché ti aiuta</span><p>L'ansia cala quando una situazione diventa familiare. Allenarti sulle domande vere, con un feedback, fa sì che il primo colloquio <b>non sia il primo in assoluto</b>.</p></div>
+          <p class="rv" style="--d:.1s">Domande del tuo ruolo, con un voto e un commento su ogni risposta.</p>
+          <div class="gain rv" style="--d:.14s"><span class="gi"><svg class="ico"><use href="#i-up"/></svg></span><div><small>Ci guadagni</small><b>Al colloquio vero arrivi già allenato.</b></div></div>
         </div>
         <div class="feat-demo rv" style="--d:.1s"><div class="stage">
           <div class="demo chat" data-demo="chat">
@@ -1160,13 +1157,13 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
     </div>
     <div class="final-grid">
       <div class="panel rv">
-        <span class="eyebrow">In sintesi, cosa fa Jobra per te</span>
+        <span class="eyebrow">Cosa ci guadagni iscrivendoti</span>
         <ul class="recap">
-          <li><svg class="ico"><use href="#i-check"/></svg>Si candida ogni giorno alle offerte adatte a te, o aspetta il tuo swipe</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>Adatta CV e lettera a ogni annuncio</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>Controlla il tuo CV con il controllo ATS</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>Trova anche i lavori che nessun altro vede</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>Ti allena con colloqui simulati sul tuo ruolo</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Ore libere ogni sera: le candidature le prepara Jobra</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Più colloqui, con un CV su misura per ogni annuncio</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Meno CV scartati dai filtri automatici</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Offerte che gli altri non vedono</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Arrivi al colloquio già allenato</li>
         </ul>
       </div>
       <div class="panel rv" style="--d:.08s">
@@ -1177,7 +1174,7 @@ h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
           <a class="sbtn" id="gcal" href="#" target="_blank" rel="noopener">Google Calendar</a>
         </div>
         <p class="intent-ok" id="intentOk" aria-live="polite"></p>
-        <p class="small">Chi decide in anticipo quando farà una cosa ha molte più probabilità di farla davvero: gli psicologi le chiamano <b>intenzioni di implementazione</b>.</p>
+        <p class="small">Chi fissa un orario ha molte più probabilità di farlo davvero.</p>
       </div>
       <div class="go-box rv" id="finalCta">
         <ol class="go-steps">
