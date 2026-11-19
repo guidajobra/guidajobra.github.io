@@ -1,0 +1,1539 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Guida a Jobra · Trova lavoro senza rubare tempo alla tua vita</title>
+<meta name="description" content="Per chi cerca lavoro la sera, dopo il lavoro. Jobra trova le offerte, adatta CV e lettera a ognuna e si candida a tuo nome. Tu decidi quanto controllo tenere.">
+<meta property="og:title" content="Guida a Jobra · Trova lavoro senza rubare tempo alla tua vita">
+<meta property="og:description" content="Candidature su misura ogni giorno, mentre tu vivi. Pronto in 5 minuti.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#050914">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --brand:#245ce8;--blue:#2563eb;--blue-d:#1d4ed8;--blue-lt:#60a5fa;--sky:#93b4ff;
+  --violet:#9b4fd0;--violet-d:#6a5ae0;--ink:#0f172a;--ink-2:#1e293b;--text-2:#475569;--muted:#64748b;
+  --bg:#fafaf9;--soft:#edf3ff;--lilac:#f3ecfb;--navy:#050914;--navy-2:#0b1222;--green:#0eb67c;--red:#ef4444;--amber:#f59e0b;
+  --line:#e6eaf2;--grad:linear-gradient(90deg,#245ce8,#9b4fd0);
+  --ease:cubic-bezier(.2,.8,.2,1);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html,body{overflow-x:hidden}
+@supports(overflow:clip){html,body{overflow-x:clip}}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 'DM Sans',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+svg{display:block}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none;padding:0;-webkit-tap-highlight-color:transparent}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+.ico{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.mono{font-family:'JetBrains Mono',ui-monospace,monospace}
+.wrap{width:100%;max-width:1140px;margin:0 auto;padding:0 20px}
+@media(min-width:760px){.wrap{padding:0 32px}}
+section{position:relative;padding:92px 0}
+@media(min-width:960px){section{padding:128px 0}}
+.dark{background:var(--navy);color:#e8edf8}
+h1,h2,h3{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;margin:0;letter-spacing:-.035em;line-height:1.05;color:var(--ink);word-spacing:.04em}
+.dark h1,.dark h2,.dark h3{color:#fff}
+h1{font-size:clamp(42px,8.6vw,80px);letter-spacing:-.045em;line-height:1.02}
+h2{font-size:clamp(34px,5.8vw,58px)}
+h3{font-size:clamp(26px,3.3vw,36px);letter-spacing:-.03em;line-height:1.1}
+.lead{font-size:clamp(17px,2vw,20px);color:var(--text-2);max-width:640px}
+.dark .lead{color:#a9b4c9}
+.hd{display:flex;flex-direction:column;gap:18px;margin-bottom:52px}
+.hd.center{align-items:center;text-align:center}
+.hd.center .lead{margin:0 auto}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font:700 12px/1 'JetBrains Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--brand)}
+.dark .eyebrow{color:var(--sky)}
+.pill{padding:10px 16px;border-radius:999px;border:1px solid rgba(147,180,255,.3);background:rgba(36,92,232,.14);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 0 28px rgba(36,92,232,.28)}
+.pill .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(14,182,124,.6);animation:ping 2s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(14,182,124,.55)}80%,100%{box-shadow:0 0 0 9px rgba(14,182,124,0)}}
+.tag{font:700 10px/1 'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase;padding:5px 7px;border-radius:6px;background:var(--soft);color:var(--brand);white-space:nowrap}
+.dark .tag,.tag.dk{background:rgba(147,180,255,.12);color:var(--sky)}
+
+/* parola selezionata */
+.sel{position:relative;display:inline-block;font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-.01em;word-spacing:0;font-size:1.13em;line-height:.9;padding:.04em .14em .08em;margin:0 .02em;color:var(--brand);white-space:nowrap}
+.dark .sel{color:var(--sky)}
+.sel::before{content:'';position:absolute;inset:0;border:1.5px solid currentColor;border-radius:2px;background:rgba(36,92,232,.07);clip-path:inset(0 100% 0 0);transition:clip-path .8s var(--ease) .3s}
+.dark .sel::before{background:rgba(147,180,255,.08)}
+.sel i{position:absolute;width:9px;height:9px;background:var(--bg);border:1.5px solid currentColor;border-radius:2px;transform:scale(0);transition:transform .4s cubic-bezier(.3,1.7,.5,1) 1s}
+.dark .sel i{background:var(--navy)}
+.sel i:first-of-type{left:-5px;top:-5px}.sel i:last-of-type{right:-5px;bottom:-5px}
+.in .sel::before,.no-js .sel::before{clip-path:inset(0)}
+.in .sel i{transform:scale(1)}
+
+/* pulsanti */
+.btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:18px 28px;border-radius:14px;background:linear-gradient(180deg,#3d78f7,#2563eb 55%,#1f57da);color:#fff;font:700 17px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em;text-decoration:none;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 12px 30px -8px rgba(37,99,235,.7),0 0 0 1px rgba(29,78,216,.7);transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 18px 40px -8px rgba(37,99,235,.8),0 0 0 1px rgba(29,78,216,.7)}
+.btn::after{content:'';position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%,rgba(255,255,255,.38) 50%,transparent 65%);transform:translateX(-120%);animation:shine 4s ease-in-out infinite}
+@keyframes shine{0%,62%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
+.btn .arr{transition:transform .2s}.btn:hover .arr{transform:translateX(4px)}
+.btn-lg{padding:22px 34px;font-size:19px;border-radius:16px}
+.btn-glow{animation:glow 2.8s ease-in-out infinite}
+@keyframes glow{0%,100%{box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 12px 30px -8px rgba(37,99,235,.7),0 0 0 1px rgba(29,78,216,.7)}50%{box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 12px 44px -4px rgba(37,99,235,.95),0 0 0 1px rgba(29,78,216,.7),0 0 0 7px rgba(36,92,232,.14)}}
+.btn-ghost{background:transparent;color:#dbe4f5;box-shadow:inset 0 0 0 1px rgba(255,255,255,.2)}
+.btn-ghost::after{display:none}
+.btn-ghost:hover{box-shadow:inset 0 0 0 1px rgba(255,255,255,.4)}
+.micro{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px;color:var(--muted)}
+.dark .micro{color:#8592ab}
+.micro span{display:inline-flex;align-items:center;gap:6px}
+.micro .ico{width:16px;height:16px;color:var(--green)}
+
+/* reveal */
+.js .rv{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease) var(--d,0s),transform .9s var(--ease) var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+.js .hero .rv{opacity:1;transform:none;transition:none;animation:rise .9s var(--ease) var(--d,0s) both}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}}
+.down{display:flex;justify-content:center;margin-top:64px;color:var(--muted)}
+.dark .down{color:#56637d}
+.down .ico{width:24px;height:24px;animation:bob 2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+.grid-bg::before{content:'';position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:46px 46px;-webkit-mask-image:radial-gradient(70% 60% at 50% 35%,#000,transparent);mask-image:radial-gradient(70% 60% at 50% 35%,#000,transparent)}
+.fine{font-size:12.5px;color:var(--muted);line-height:1.45}
+.dark .fine{color:#5f6c86}
+
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:60;transition:background .3s,box-shadow .3s}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font:800 16px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em}
+.brand small{font:500 13px 'DM Sans',sans-serif;letter-spacing:0;opacity:.6}
+.bicon{display:grid;place-items:center;width:26px;height:26px;border-radius:8px;background:var(--grad);box-shadow:0 0 14px rgba(36,92,232,.6)}
+.bicon .ico{width:15px;height:15px;color:#fff;stroke-width:3}
+.nav .btn{padding:11px 16px;font-size:14px;border-radius:11px}
+.nav.scrolled{background:rgba(5,9,20,.74);-webkit-backdrop-filter:saturate(1.6) blur(14px);backdrop-filter:saturate(1.6) blur(14px);box-shadow:0 1px 0 rgba(255,255,255,.06)}
+
+/* HERO */
+.hero{padding:112px 0 72px;overflow:hidden;background:radial-gradient(55% 45% at 78% 28%,rgba(36,92,232,.32),transparent 70%),radial-gradient(45% 40% at 10% 85%,rgba(155,79,208,.24),transparent 70%),var(--navy)}
+@media(min-width:960px){.hero{padding:150px 0 96px}}
+.hero-grid{position:relative;display:grid;gap:56px;align-items:center}
+@media(min-width:960px){.hero-grid{grid-template-columns:1.08fr .92fr;gap:40px}}
+.hero h1{margin:24px 0}
+.hero .lead{margin-bottom:34px}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:18px}
+@media(max-width:560px){.cta-row .btn{width:100%}}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:44px;padding-top:28px;border-top:1px solid rgba(255,255,255,.08);max-width:560px}
+.stat b{display:block;font:800 clamp(24px,3.6vw,34px)/1 'Plus Jakarta Sans',sans-serif;color:#fff;letter-spacing:-.03em}
+.stat span{display:block;margin-top:7px;font-size:13px;line-height:1.35;color:#8592ab}
+.hero .fine{margin-top:12px}
+
+/* telefono */
+.phone-wrap{position:relative;display:flex;justify-content:center}
+.phone{position:relative;width:min(330px,84vw);aspect-ratio:9/17;border-radius:46px;padding:10px;background:linear-gradient(160deg,#2b3754,#0b1222);box-shadow:0 0 0 1px rgba(255,255,255,.09),0 50px 100px -30px rgba(36,92,232,.65),0 24px 60px rgba(0,0,0,.55)}
+.ph-screen{position:relative;height:100%;border-radius:37px;overflow:hidden;background:#f4f6fb;color:var(--ink)}
+.ph-notch{position:absolute;top:19px;left:50%;transform:translateX(-50%);width:92px;height:26px;border-radius:20px;background:#04070d;z-index:8}
+.ph-status{display:flex;justify-content:space-between;align-items:center;height:46px;padding:12px 26px 0;font:700 13px 'DM Sans',sans-serif}
+.ph-status .bars{display:flex;gap:2px;align-items:flex-end}
+.ph-status .bars i{width:3px;border-radius:1px;background:var(--ink)}
+.ph-head{display:flex;align-items:center;gap:10px;padding:14px 18px 10px}
+.ph-logo{width:34px;height:34px;border-radius:10px;background:var(--grad);color:#fff;font:800 17px 'Plus Jakarta Sans',sans-serif;display:grid;place-items:center}
+.ph-head b{display:block;font:800 16px/1.1 'Plus Jakarta Sans',sans-serif}
+.ph-head span{font-size:12px;color:var(--muted)}
+.ph-head .tag{margin-left:auto}
+.feed{display:flex;flex-direction:column;gap:7px;padding:2px 12px}
+.feed li{display:grid;grid-template-columns:30px 1fr auto;gap:10px;align-items:center;background:#fff;border-radius:14px;padding:9px 11px;box-shadow:0 1px 2px rgba(15,23,42,.05),0 0 0 1px rgba(15,23,42,.05);opacity:0;transform:translateY(14px) scale(.97);transition:opacity .5s var(--ease),transform .5s var(--ease),box-shadow .4s}
+.feed li.show{opacity:1;transform:none}
+.feed li.win{box-shadow:0 0 0 2px var(--green),0 12px 26px -10px rgba(14,182,124,.6)}
+.feed .ft{font-size:11px;color:var(--muted);align-self:start;margin-top:2px}
+.fi{width:30px;height:30px;border-radius:9px;display:grid;place-items:center}
+.fi .ico{width:16px;height:16px}
+.fi.b{background:var(--soft);color:var(--brand)}.fi.v{background:var(--lilac);color:var(--violet)}.fi.g{background:#e3f7ef;color:var(--green)}
+.feed b{display:block;font:700 12.5px/1.25 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em}
+.feed small{display:block;margin-top:2px;font-size:11.5px;line-height:1.3;color:var(--muted)}
+.ph-sum{margin:10px 12px 0;padding:12px 14px;border-radius:14px;background:var(--ink);color:#fff;display:flex;justify-content:space-between;align-items:center;opacity:0;transform:translateY(10px);transition:.5s var(--ease)}
+.ph-sum.show{opacity:1;transform:none}
+.ph-sum span{font-size:11.5px;color:#94a3b8}
+.ph-sum b{font:700 13px 'Plus Jakarta Sans',sans-serif}
+.ph-night{position:absolute;inset:0;z-index:6;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#fff;background:radial-gradient(80% 50% at 50% 30%,#22306a,transparent),linear-gradient(180deg,#0a1230,#1a1240);transition:opacity .9s}
+.ph-night.off{opacity:0;pointer-events:none}
+.ph-night .ico{width:34px;height:34px;color:#c7d2fe}
+.ph-clock{font:700 48px/1 'JetBrains Mono',monospace;letter-spacing:-.02em}
+.ph-night p{font-size:14px;color:#c7d2fe}
+.ph-night .star{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;opacity:.6;animation:tw 2.4s infinite}
+@keyframes tw{50%{opacity:.15}}
+.ph-banner{position:absolute;left:9px;right:9px;top:50px;z-index:7;display:flex;gap:10px;align-items:center;padding:11px 12px;border-radius:18px;background:rgba(255,255,255,.92);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 16px 34px rgba(15,23,42,.28);transform:translateY(-150%);transition:transform .7s cubic-bezier(.2,1.25,.4,1)}
+.ph-banner.show{transform:none}
+.ph-banner b{display:block;font:700 12.5px 'Plus Jakarta Sans',sans-serif}
+.ph-banner small{font-size:12px;color:var(--text-2)}
+.float{display:none}
+@media(min-width:960px){
+  .float{display:flex;position:absolute;z-index:3;align-items:center;gap:8px;padding:10px 14px;border-radius:14px;background:rgba(15,26,48,.82);border:1px solid rgba(255,255,255,.12);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:#fff;font:700 13px 'Plus Jakarta Sans',sans-serif;box-shadow:0 18px 40px -12px rgba(0,0,0,.6);animation:fl 6s ease-in-out infinite}
+  .float .ico{width:16px;height:16px;color:var(--green)}
+  .float.f1{left:calc(50% - 232px);top:14%}.float.f2{right:calc(50% - 280px);top:46%;animation-delay:-2s}.float.f3{left:calc(50% - 290px);bottom:9%;animation-delay:-4s}
+}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+
+/* TI RICONOSCI */
+.pains{display:grid;gap:16px}
+@media(min-width:760px){.pains{grid-template-columns:1fr 1fr;gap:20px}}
+.pain{position:relative;display:flex;flex-direction:column;gap:18px;padding:16px 16px 20px;border-radius:24px;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08);transition:border-color .3s,box-shadow .3s}
+.pain.checked{border-color:rgba(96,165,250,.55);box-shadow:0 0 0 1px rgba(96,165,250,.35),0 24px 60px -24px rgba(36,92,232,.7)}
+.pain-ui{position:relative;height:236px;border-radius:16px;overflow:hidden;display:grid;place-items:center;padding:14px;background:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1px) 0 0/16px 16px,#0a1120}
+.pain-tx{padding:0 6px}
+.pain h3{font-size:22px;margin-bottom:6px}
+.pain p{color:#a9b4c9;font-size:16px}
+.me{align-self:flex-start;margin-left:6px;display:inline-flex;align-items:center;gap:10px;padding:10px 16px 10px 10px;border-radius:12px;border:1px solid rgba(255,255,255,.16);font-weight:700;font-size:15px;color:#e2e8f0;transition:.2s}
+.me:hover{border-color:rgba(255,255,255,.32)}
+.me .box{width:24px;height:24px;border-radius:7px;border:1.5px solid rgba(255,255,255,.38);display:grid;place-items:center;transition:.2s}
+.me .box .ico{width:15px;height:15px;stroke:#fff;stroke-width:3;opacity:0;transform:scale(.4);transition:.3s cubic-bezier(.3,1.7,.5,1)}
+.me[aria-pressed=true]{background:rgba(36,92,232,.2);border-color:rgba(96,165,250,.6)}
+.me[aria-pressed=true] .box{background:var(--brand);border-color:var(--brand)}
+.me[aria-pressed=true] .box .ico{opacity:1;transform:none}
+.mini{width:min(290px,100%);padding:13px 14px;border-radius:14px;background:#131c30;border:1px solid rgba(255,255,255,.08);font-size:13px;color:#cbd5e1;box-shadow:0 22px 44px -14px rgba(0,0,0,.7)}
+.m-h{display:flex;align-items:center;gap:8px;margin-bottom:10px;font:700 13px 'Plus Jakarta Sans',sans-serif;color:#fff}
+.m-h .ico{width:16px;height:16px;color:var(--sky)}
+.m-h .n{margin-left:auto;font:700 20px 'JetBrains Mono',monospace;color:#fff}
+.m-rows{display:flex;flex-direction:column;gap:6px;height:96px;overflow:hidden}
+.m-row{display:flex;align-items:center;gap:9px;padding:7px 9px;border-radius:8px;background:rgba(255,255,255,.045);opacity:0;transform:translateY(-8px);transition:.35s var(--ease)}
+.m-row.show{opacity:1;transform:none}
+.m-row .ico{width:13px;height:13px;color:var(--blue-lt);fill:var(--blue-lt)}
+.m-row i{flex:1;height:6px;border-radius:3px;background:rgba(255,255,255,.13)}
+.m-row i+i{flex:.5;background:rgba(255,255,255,.07)}
+.m-f{display:flex;justify-content:space-between;margin-top:10px;padding-top:10px;border-top:1px dashed rgba(255,255,255,.14);color:#94a3b8}
+.m-f b{font:700 14px 'JetBrains Mono',monospace;color:#f87171}
+.spin{margin-left:auto;width:16px;height:16px;border-radius:50%;border:2px solid rgba(255,255,255,.15);border-top-color:var(--sky);opacity:0}
+.loading .spin{opacity:1;animation:rot .7s linear infinite}
+@keyframes rot{to{transform:rotate(360deg)}}
+.r-when{display:inline-block;margin-bottom:10px;padding:4px 8px;border-radius:6px;background:rgba(147,180,255,.12);color:var(--sky);font-size:12px;transition:opacity .3s}
+.r-box{height:84px;border-radius:10px;border:1px dashed rgba(255,255,255,.14);display:grid;place-items:center;text-align:center;color:#64748b;font-size:13px}
+.r-box .ico{width:22px;height:22px;margin:0 auto 6px;color:#475569}
+.r-empty{opacity:0;transition:opacity .3s}
+.r-empty.show{opacity:1;animation:shake .45s}
+@keyframes shake{25%{transform:translateX(-5px)}50%{transform:translateX(4px)}75%{transform:translateX(-2px)}}
+.lt-to{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:12px;color:#94a3b8}
+.lt-to b{color:#fff;font-size:12px;padding:3px 7px;border-radius:6px;background:rgba(255,255,255,.08);white-space:nowrap;flex:none}
+.lt-to{gap:8px}.lt-to>.mono{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.lt-to>span:last-child{flex:none}
+.lt p{color:#e2e8f0;font-size:14px;margin-bottom:10px;min-height:21px}
+.lt .co{position:relative;color:var(--sky);font-weight:700}
+.lt .co.err{color:#fca5a5;text-decoration:underline wavy #ef4444;text-underline-offset:4px}
+.lt .car{display:inline-block;width:2px;height:15px;margin-left:1px;vertical-align:-2px;background:var(--sky);animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.skel{display:flex;flex-direction:column;gap:7px}
+.skel i{display:block;height:6px;border-radius:3px;background:rgba(255,255,255,.12)}
+.lt-err{margin-top:12px;display:inline-flex;align-items:center;gap:6px;padding:5px 9px;border-radius:7px;background:rgba(239,68,68,.15);color:#fca5a5;font:700 12px 'JetBrains Mono',monospace;opacity:0;transform:translateY(4px);transition:.3s}
+.lt-err.show{opacity:1;transform:none}
+.s-row{display:flex;justify-content:space-between;align-items:baseline;padding:4px 0}
+.s-row b{font:700 22px 'JetBrains Mono',monospace;color:#fff}
+.s-row.zero b{color:#f87171}
+.spark{width:100%;height:56px;margin-top:6px}
+.spark path{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:300;stroke-dashoffset:300}
+.spark .up{stroke:var(--blue-lt)}.spark .flat{stroke:#f87171;stroke-dasharray:4 5;stroke-dashoffset:0;opacity:0;transition:opacity .5s}
+.spark.go .up{animation:draw 2.4s var(--ease) forwards}.spark.go .flat{opacity:1}
+@keyframes draw{to{stroke-dashoffset:0}}
+.pain-res{margin:36px auto 0;max-width:640px;text-align:center;font-size:18px;color:#a9b4c9;min-height:84px}
+.pain-res b{color:#fff}
+.pain-res .ok{display:none}
+.pain-res.has .ok{display:block;animation:up .5s var(--ease)}
+.pain-res.has .no{display:none}
+@keyframes up{from{opacity:0;transform:translateY(10px)}}
+
+/* MATEMATICA */
+.math{display:grid;gap:20px}
+@media(min-width:900px){.math{grid-template-columns:1.1fr .9fr}}
+.card{border-radius:24px;background:#fff;border:1px solid var(--line);box-shadow:0 1px 2px rgba(15,23,42,.04),0 20px 50px -30px rgba(15,23,42,.25);padding:26px}
+.card-h{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:20px}
+.card-h span{font:700 16px 'Plus Jakarta Sans',sans-serif}
+.card-h b{font:800 30px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:-.03em;color:var(--brand);white-space:nowrap}
+.card-h b span{font:inherit}
+.rows{display:flex;flex-direction:column;gap:16px}
+.row{display:grid;grid-template-columns:1fr auto;gap:6px 12px;font-size:15px;color:var(--text-2)}
+.row b{font:700 15px 'JetBrains Mono',monospace;color:var(--ink)}
+.bar{grid-column:1/-1;height:10px;border-radius:5px;background:#eef1f6;overflow:hidden}
+.bar i{display:block;height:100%;width:var(--w);border-radius:5px;background:var(--grad);transform:scaleX(0);transform-origin:left;transition:transform 1.1s var(--ease) calc(var(--i)*.25s)}
+.on .bar i{transform:scaleX(1)}
+.card .fine{margin-top:18px}
+.cal-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:6px}
+.cal-grid .dl{text-align:center;font:700 11px 'JetBrains Mono',monospace;color:var(--muted)}
+.cell{aspect-ratio:1;border-radius:12px;background:#eef1f6;display:grid;place-items:center;font:700 13px 'JetBrains Mono',monospace;color:transparent;transition:background .4s calc(var(--i)*.16s),color .4s calc(var(--i)*.16s),transform .4s cubic-bezier(.3,1.7,.5,1) calc(var(--i)*.16s)}
+.on .cell{background:linear-gradient(135deg,#245ce8,#6a5ae0);color:#fff;transform:scale(1.04)}
+.cal-big{font:800 clamp(26px,3vw,32px)/1.1 'Plus Jakarta Sans',sans-serif;letter-spacing:-.03em;margin-bottom:6px}
+.cal-big span{white-space:nowrap}
+.cal-sub{color:var(--text-2);font-size:15px;margin-bottom:16px}
+
+/* MARQUEE */
+.mq-clip{position:relative;z-index:2;overflow:hidden;padding:24px 0;margin:-24px 0}
+.marquee{overflow:hidden;background:var(--grad);color:#fff;padding:18px 0;transform:rotate(-1.2deg);margin:-10px -2%;width:104%;box-shadow:0 20px 40px -20px rgba(36,92,232,.6)}
+.mq-track{display:flex;width:max-content;animation:mq 26s linear infinite}
+.mq-track span{display:flex;align-items:center;gap:28px;padding-right:28px;font:800 clamp(20px,2.6vw,28px)/1 'Plus Jakarta Sans',sans-serif;letter-spacing:-.02em;white-space:nowrap}
+.mq-track em{font:italic 400 1.15em 'Instrument Serif',serif;letter-spacing:0}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* SOLUZIONE */
+.sol{overflow:hidden;background:radial-gradient(50% 40% at 50% 0%,rgba(36,92,232,.3),transparent 70%),var(--navy)}
+.pipe-box{position:relative;padding:28px 22px;border-radius:28px;background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.015));border:1px solid rgba(255,255,255,.08)}
+@media(min-width:900px){.pipe-box{padding:44px 36px}}
+.pipe-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px;gap:10px}
+.pipe-top .live{display:flex;align-items:center;gap:10px;font:700 14px 'Plus Jakarta Sans',sans-serif;color:#fff}
+.pipe-top .live i{width:8px;height:8px;border-radius:50%;background:var(--green);animation:ping 2s infinite}
+.pipe{position:relative;display:grid;gap:22px}
+@media(min-width:900px){.pipe{grid-template-columns:repeat(5,1fr);gap:16px}}
+.pipe-line{position:absolute;left:27px;top:28px;bottom:28px;width:2px;background:rgba(255,255,255,.1);border-radius:2px}
+.pipe-fill{position:absolute;inset:0;border-radius:2px;background:linear-gradient(180deg,var(--blue-lt),var(--violet));transform-origin:top;transform:scaleY(var(--p,0));transition:transform .8s cubic-bezier(.4,0,.2,1)}
+@media(min-width:900px){.pipe-line{left:10%;right:10%;top:28px;bottom:auto;width:auto;height:2px}.pipe-fill{transform-origin:left;transform:scaleX(var(--p,0));background:linear-gradient(90deg,var(--blue-lt),var(--violet))}}
+.node{position:relative;display:grid;grid-template-columns:56px 1fr;gap:16px;align-items:center}
+@media(min-width:900px){.node{grid-template-columns:1fr;justify-items:center;align-items:start;align-content:start;text-align:center;gap:14px}}
+.n-ic{position:relative;z-index:1;width:56px;height:56px;border-radius:17px;display:grid;place-items:center;background:#0f1a30;border:1px solid rgba(255,255,255,.1);color:#5b6984;transition:.45s}
+.n-ic .ico{width:24px;height:24px}
+.node.lit .n-ic{background:linear-gradient(135deg,var(--brand),var(--violet));border-color:transparent;color:#fff;box-shadow:0 0 0 6px rgba(36,92,232,.2),0 12px 30px -6px rgba(36,92,232,.8)}
+.node.lit:last-child .n-ic{background:linear-gradient(135deg,#10c98a,#0a9a69);box-shadow:0 0 0 6px rgba(14,182,124,.2),0 12px 30px -6px rgba(14,182,124,.8)}
+.node b{display:block;font:700 16px/1.25 'Plus Jakarta Sans',sans-serif;color:#5b6984;transition:color .45s}
+.node.lit b{color:#fff}
+.node small{display:block;margin-top:4px;font-size:13.5px;line-height:1.35;color:#a9b4c9;opacity:0;transform:translateY(5px);transition:.45s}
+.node.lit small{opacity:1;transform:none}
+.steps3{display:grid;gap:14px;margin-top:22px}
+@media(min-width:900px){.steps3{grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}}
+.step{display:flex;gap:14px;align-items:flex-start;padding:18px;border-radius:18px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.07)}
+.step .k{flex:none;width:32px;height:32px;border-radius:10px;display:grid;place-items:center;background:rgba(147,180,255,.14);color:var(--sky);font:700 14px 'JetBrains Mono',monospace}
+.step b{display:block;color:#fff;font:700 16px 'Plus Jakarta Sans',sans-serif;margin-bottom:2px}
+.step span{font-size:14.5px;color:#a9b4c9}
+.sol .stats{max-width:none;margin:44px auto 0;text-align:center}
+.sol .stats + .fine{text-align:center;margin-top:10px}
+
+/* FUNZIONI */
+.feats{display:flex;flex-direction:column;gap:96px}
+@media(min-width:960px){.feats{gap:140px}}
+.feat{display:grid;grid-template-columns:minmax(0,1fr);gap:36px;align-items:center}
+.feat-tx,.feat-demo{min-width:0}
+@media(min-width:960px){.feat{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:72px}.feat.rev .feat-tx{order:2}}
+.feat-tx{display:flex;flex-direction:column;gap:18px}
+.feat-tx>p{color:var(--text-2);font-size:17.5px}
+.num{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:8px;background:var(--brand);color:#fff;letter-spacing:0;font-size:12px}
+.checks{display:flex;flex-direction:column;gap:10px}
+.checks li{display:flex;gap:10px;align-items:flex-start;color:var(--ink);font-size:16px}
+.checks .ico{width:20px;height:20px;margin-top:2px;padding:3px;border-radius:50%;background:#e3f7ef;color:var(--green);stroke-width:3}
+.why{padding:16px 18px;border-radius:16px;border:1.5px solid transparent;background:linear-gradient(#fff,#fff) padding-box,var(--grad) border-box}
+.why .eyebrow{margin-bottom:8px}
+.why p{color:var(--text-2);font-size:15.5px}
+.why p b{color:var(--ink)}
+.stage{position:relative;padding:22px;border-radius:30px;background:radial-gradient(rgba(36,92,232,.13) 1px,transparent 1px) 0 0/18px 18px,linear-gradient(135deg,#e8efff,#f1e8fb)}
+@media(min-width:760px){.stage{padding:36px}}
+.demo{position:relative;border-radius:22px;background:#fff;border:1px solid rgba(15,23,42,.06);box-shadow:0 1px 2px rgba(15,23,42,.05),0 30px 60px -30px rgba(36,60,140,.45);padding:18px;overflow:hidden}
+.demo-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:14px;font-size:12px;color:var(--muted)}
+/* modalità */
+.modes{display:grid;gap:10px}
+@media(min-width:560px){.modes{grid-template-columns:1fr 1fr}}
+.mode{text-align:left;display:flex;flex-direction:column;gap:6px;padding:16px;border-radius:16px;background:#fff;border:1.5px solid var(--line);font-size:14.5px;line-height:1.45;color:var(--text-2);transition:.25s}
+.mode:hover{border-color:#c5d3f5}
+.mode-h{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.mode-h b{font:800 17px 'Plus Jakarta Sans',sans-serif;color:var(--ink)}
+.mode .badge{font:700 10px 'JetBrains Mono',monospace;letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:6px;background:#e3f7ef;color:#047857}
+.mode.on{border-color:var(--brand);background:var(--soft);box-shadow:0 0 0 3px rgba(36,92,232,.12)}
+.try{font-size:13.5px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.try .ico{width:16px;height:16px;color:var(--brand)}
+/* swipe */
+.sw-head{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px}
+.sw-head .live{display:flex;align-items:center;gap:8px;font:700 13px 'Plus Jakarta Sans',sans-serif}
+.sw-head .live i{width:8px;height:8px;border-radius:50%;background:var(--amber)}
+.sw[data-mode=auto] .sw-head .live i{background:var(--green);animation:ping 2s infinite}
+.sw-count{font-size:12.5px;color:var(--text-2);padding:5px 8px;border-radius:7px;background:#f1f4f9}
+.sw-deck{position:relative;height:226px;margin:18px 0 34px}
+@media(max-width:520px){.sw-deck{height:262px}.stage{padding:14px;border-radius:24px}.demo{padding:15px}.job{padding:15px}.job-h b{font-size:16px}.job .lg{width:40px;height:40px}}
+.job{position:absolute;inset:0;padding:18px;border-radius:20px;background:#fff;box-shadow:0 1px 2px rgba(15,23,42,.06),0 16px 36px -16px rgba(15,23,42,.35),0 0 0 1px rgba(15,23,42,.07);transition:transform .45s var(--ease),opacity .45s;touch-action:pan-y;-webkit-user-select:none;user-select:none;cursor:grab;will-change:transform;overflow:hidden}
+.job[data-pos="0"]{z-index:3}
+.job[data-pos="1"]{z-index:2;transform:translateY(14px) scale(.95);opacity:.85;pointer-events:none}
+.job[data-pos="2"]{z-index:1;transform:translateY(28px) scale(.9);opacity:.5;pointer-events:none}
+.job.fly-r{transform:translateX(125%) rotate(16deg)!important;opacity:0!important}
+.job.fly-l{transform:translateX(-125%) rotate(-16deg)!important;opacity:0!important}
+.job.hint{animation:hint .9s var(--ease)}
+@keyframes hint{50%{transform:translateX(46px) rotate(5deg)}}
+.job-h{display:flex;align-items:center;gap:12px}
+.job .lg{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;color:#fff;font:800 18px 'Plus Jakarta Sans',sans-serif;flex:none}
+.job-h b{display:block;font:800 17px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em}
+.job-h small{font-size:13px;color:var(--muted)}
+.match{margin-left:auto;text-align:center;padding:6px 9px;border-radius:10px;background:var(--soft);color:var(--brand)}
+.match b{font:800 18px/1 'Plus Jakarta Sans',sans-serif;display:block}
+.match small{font:700 9px 'JetBrains Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
+.job ul{margin-top:16px;display:flex;flex-direction:column;gap:8px}
+.job li{display:flex;align-items:center;gap:9px;font-size:14px;color:var(--text-2)}
+.job li .ico{width:18px;height:18px;padding:3px;border-radius:50%;background:#e3f7ef;color:var(--green);stroke-width:3}
+.stamp{position:absolute;top:18px;padding:5px 10px;border:3px solid;border-radius:9px;font:800 17px 'JetBrains Mono',monospace;letter-spacing:.06em;opacity:0;background:#fff}
+.s-send{right:18px;color:var(--green);transform:rotate(10deg)}
+.s-skip{left:18px;color:var(--red);transform:rotate(-10deg)}
+.sw-btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sw-btns button{padding:14px;border-radius:14px;font:700 15px 'Plus Jakarta Sans',sans-serif;transition:.2s}
+.b-skip{background:#f1f4f9;color:var(--text-2)}
+.b-skip:hover{background:#e7ebf3}
+.b-send{background:var(--brand);color:#fff;box-shadow:0 10px 22px -10px rgba(36,92,232,.9)}
+.b-send:hover{background:var(--blue-d)}
+.sw[data-mode=auto] .sw-btns button{opacity:.35;pointer-events:none}
+.sw-toast{position:absolute;left:50%;top:56px;z-index:9;transform:translate(-50%,-10px);padding:9px 14px;border-radius:999px;background:var(--ink);color:#fff;font:700 13px 'Plus Jakarta Sans',sans-serif;white-space:nowrap;opacity:0;pointer-events:none}
+.sw-toast.show{animation:toast 1.4s var(--ease)}
+@keyframes toast{0%{opacity:0;transform:translate(-50%,-10px)}15%,75%{opacity:1;transform:translate(-50%,0)}100%{opacity:0;transform:translate(-50%,-6px)}}
+/* cv */
+.cv-ads{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px}
+.cv-ads .l{font:700 10.5px 'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.ad{padding:7px 11px;border-radius:9px;border:1.5px solid var(--line);font-size:13px;font-weight:700;color:var(--text-2);transition:.25s}
+.ad.on{border-color:var(--brand);background:var(--soft);color:var(--brand)}
+.cv-doc{border-radius:16px;border:1px solid var(--line);padding:18px;background:#fbfcfe}
+.cv-h{display:flex;align-items:center;gap:12px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.av{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,#c7d7fb,#e3d3f8);flex:none}
+.cv-h b{display:block;font:800 16px 'Plus Jakarta Sans',sans-serif}
+.cv-title{display:inline-block;font:700 14px 'Plus Jakarta Sans',sans-serif;color:var(--brand);transition:opacity .25s,transform .25s}
+.cv-title.out{opacity:0;transform:translateY(6px)}
+.cv-h .tag{margin-left:auto}
+.cv-sec{padding-top:14px}
+.cv-sec .l{display:block;margin-bottom:9px;font:700 10px 'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.cv-skills{display:flex;flex-wrap:wrap;gap:7px;min-height:66px;align-content:flex-start}
+@media(max-width:520px){.cv-skills{min-height:124px}}
+.chip{padding:6px 10px;border-radius:8px;background:#fff;border:1px solid var(--line);font-size:13px;font-weight:600;color:var(--ink);animation:chip .45s var(--ease) both;animation-delay:calc(var(--i)*.08s)}
+.chip.hot{background:var(--soft);border-color:#bcd0fb;color:var(--blue-d)}
+@keyframes chip{from{opacity:0;transform:translateY(8px) scale(.9)}}
+.skl{display:flex;flex-direction:column;gap:7px}
+.skl i{display:block;height:7px;border-radius:4px;background:#e8ecf3}
+.cv-meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-top:12px;font-size:12.5px;color:var(--muted)}
+.cv-meta b{color:var(--ink)}
+.bigstat{display:flex;align-items:center;gap:16px;padding:16px 18px;border-radius:16px;background:var(--navy);color:#cbd5e1}
+.bigstat b{font:800 44px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:-.04em;background:linear-gradient(90deg,#7fa6ff,#c48cf0);-webkit-background-clip:text;background-clip:text;color:transparent;flex:none}
+.bigstat span{font-size:15px;line-height:1.35;color:#fff;font-weight:700}
+.bigstat small{display:block;font-size:12px;font-weight:400;color:#7d8aa5;margin-top:3px}
+/* ats */
+.ats-top{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center}
+.ring{position:relative;width:132px;height:132px}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:11;stroke-linecap:round}
+.ring .bg{stroke:#eef1f6}
+.ring .fg{stroke:url(#ringGrad);stroke-dasharray:314.16;transition:stroke .4s}
+.ring.low .fg{stroke:var(--amber)}
+.ring-n{position:absolute;inset:0;display:grid;place-content:center;text-align:center}
+.ring-n b{font:800 38px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:-.03em}
+.ring-n small{font:700 10px 'JetBrains Mono',monospace;letter-spacing:.12em;color:var(--muted);margin-top:4px}
+.ab{display:grid;grid-template-columns:1fr auto;gap:5px 10px;font-size:13px;color:var(--text-2);margin-bottom:11px}
+.ab b{font:700 13px 'JetBrains Mono',monospace;color:var(--ink)}
+.ab .bar{height:7px}
+.ab .bar i{width:100%;transform:scaleX(var(--v,0));transition:transform .9s var(--ease),background .4s}
+.ats.low .ab .bar i{background:var(--amber)}
+.kw{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0 14px}
+.kw span{display:inline-flex;align-items:center;gap:5px;padding:6px 10px;border-radius:8px;font-size:13px;font-weight:700;background:#e3f7ef;color:#047857;transition:.35s}
+.kw span .ico{width:13px;height:13px;stroke-width:3}
+.kw span.miss{background:#fde8e8;color:#b91c1c}
+.kw span.flip{animation:flip .5s var(--ease)}
+@keyframes flip{50%{transform:scale(1.15)}}
+.tip{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;border-radius:12px;background:#fff8eb;border:1px solid #fde4b0;font-size:13.5px;line-height:1.45;color:#7c5a12;transition:.4s}
+.tip b{flex:none;width:22px;height:22px;border-radius:7px;display:grid;place-items:center;background:var(--amber);color:#fff;font:700 12px 'JetBrains Mono',monospace}
+.ats:not(.low) .tip{background:#ecfdf5;border-color:#b7ebd5;color:#065f46}
+.ats:not(.low) .tip b{background:var(--green)}
+.fix{width:100%;margin-top:14px;padding:14px;border-radius:14px;background:var(--ink);color:#fff;font:700 15px 'Plus Jakarta Sans',sans-serif;display:flex;align-items:center;justify-content:center;gap:8px;transition:.2s}
+.fix:hover{background:var(--ink-2)}
+.fix.busy{background:var(--brand)}
+.fix.busy .ico{animation:rot .8s linear infinite}
+/* kit */
+.kit-bar{display:flex;align-items:center;gap:7px;margin:-18px -18px 0;padding:12px 16px;background:#f5f7fb;border-bottom:1px solid var(--line)}
+.kit-bar>i{width:10px;height:10px;border-radius:50%;background:#d6dce6}
+.kit-bar span{margin-left:8px;font-size:12px;color:var(--muted);min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kit-tabs{display:flex;gap:6px;margin:14px 0}
+.kit-tabs span{padding:6px 11px;border-radius:8px;font-size:13px;font-weight:700;color:var(--muted);background:#f1f4f9}
+.kit-tabs span.on{background:var(--ink);color:#fff}
+.typed{min-height:212px;font-size:15px;line-height:1.6;color:var(--ink)}
+.typed mark{background:linear-gradient(transparent 58%,#dbe6ff 58%);color:var(--blue-d);font-weight:700}
+.typed::after{content:'';display:inline-block;width:2px;height:17px;margin-left:2px;vertical-align:-3px;background:var(--brand);animation:blink 1s steps(1) infinite}
+.kit-check{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.kit-check li{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--muted);transition:color .3s}
+.kit-check li .ico{width:20px;height:20px;padding:3px;border-radius:50%;background:#eef1f6;color:transparent;stroke-width:3;transition:.35s cubic-bezier(.3,1.7,.5,1)}
+.kit-check li.ok{color:var(--ink)}
+.kit-check li.ok .ico{background:var(--green);color:#fff;transform:scale(1.1)}
+/* chat */
+.chat-h>span:first-child{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chat-h{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-bottom:14px;border-bottom:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+.chat-h .rec{flex:none;white-space:nowrap;display:flex;align-items:center;gap:6px;font-weight:700;color:var(--red)}
+.chat-h .rec i{width:7px;height:7px;border-radius:50%;background:var(--red);animation:tw 1.2s infinite}
+.chat-b{display:flex;flex-direction:column;gap:10px;padding-top:14px}
+.msg{max-width:88%;opacity:0;transform:translateY(10px);transition:.45s var(--ease)}
+.msg.show{opacity:1;transform:none}
+.msg .who{display:block;font:700 10.5px 'JetBrains Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 4px 5px}
+.msg .bub{position:relative;padding:11px 14px;border-radius:16px;font-size:14.5px;line-height:1.45}
+.msg.rec .bub{background:#f1f4f9;border-top-left-radius:5px}
+.msg.you{align-self:flex-end;text-align:right}
+.msg.you .bub{background:var(--brand);color:#fff;border-top-right-radius:5px;text-align:left}
+.msg.score{align-self:stretch;max-width:100%}
+.msg.score .bub{display:flex;gap:12px;align-items:flex-start;background:#fff8eb;border:1px solid #fde4b0;color:#7c5a12}
+.msg.score.good .bub{background:#ecfdf5;border-color:#b7ebd5;color:#065f46}
+.msg.score .v{flex:none;font:800 18px/1 'Plus Jakarta Sans',sans-serif;padding:7px 8px;border-radius:9px;background:var(--amber);color:#fff}
+.msg.score.good .v{background:var(--green)}
+.msg .tx{transition:opacity .3s}
+.msg.typing .tx{opacity:0}
+.msg .dots{position:absolute;left:14px;top:50%;display:flex;gap:4px;transform:translateY(-50%);opacity:0}
+.msg.typing .dots{opacity:1}
+.msg .dots i{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.5;animation:dot 1s infinite}
+.msg .dots i:nth-child(2){animation-delay:.15s}.msg .dots i:nth-child(3){animation-delay:.3s}
+@keyframes dot{50%{opacity:1;transform:translateY(-3px)}}
+.msg.score .dots{left:auto;right:14px}
+.extra{padding:14px 16px;border-radius:14px;background:var(--soft);font-size:15px;color:var(--ink)}
+.extra b{color:var(--brand)}
+
+/* CTA intermedia */
+.mid{padding:0 0 110px}
+.mid-box{display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center;padding:40px 24px;border-radius:28px;background:radial-gradient(60% 80% at 50% 0%,rgba(36,92,232,.35),transparent 70%),var(--navy);color:#fff}
+.mid-box h3{color:#fff}
+.mid-box p{color:#a9b4c9}
+
+/* SETTIMANA */
+.week{position:relative;display:grid;gap:14px}
+@media(min-width:960px){.week{grid-template-columns:repeat(5,1fr);gap:14px}}
+.wk-line{position:absolute;left:22px;top:24px;bottom:24px;width:2px;background:rgba(255,255,255,.1)}
+.wk-line i{position:absolute;inset:0;background:linear-gradient(180deg,var(--blue-lt),var(--violet));transform:scaleY(0);transform-origin:top;transition:transform 2.6s cubic-bezier(.4,0,.2,1) .2s}
+.on .wk-line i{transform:scaleY(1)}
+@media(min-width:960px){.wk-line{left:8%;right:8%;top:22px;bottom:auto;width:auto;height:2px}.wk-line i{transform:scaleX(0);transform-origin:left;background:linear-gradient(90deg,var(--blue-lt),var(--violet))}.on .wk-line i{transform:scaleX(1)}}
+.day{position:relative;padding-left:62px}
+@media(min-width:960px){.day{padding-left:0;padding-top:62px}}
+.day .d{position:absolute;left:0;top:0;z-index:1;width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:#0f1a30;border:1px solid rgba(255,255,255,.12);font:700 13px 'JetBrains Mono',monospace;color:#64748b;transition:.45s calc(var(--i)*.5s + .2s)}
+@media(min-width:960px){.day .d{left:50%;margin-left:-23px}}
+.on .day .d{background:var(--brand);border-color:transparent;color:#fff;box-shadow:0 0 0 6px rgba(36,92,232,.18)}
+.day-c{padding:16px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);opacity:.35;transform:translateY(8px);transition:.6s calc(var(--i)*.5s + .2s)}
+.on .day-c{opacity:1;transform:none}
+.day-c .w{display:block;font:700 12px 'JetBrains Mono',monospace;color:var(--sky);margin-bottom:6px}
+.day-c p{font-size:15px;color:#cbd5e1;line-height:1.5}
+.day.star .day-c{background:linear-gradient(160deg,rgba(14,182,124,.22),rgba(14,182,124,.06));border-color:rgba(14,182,124,.45)}
+.day.star .day-c .w{color:#5eead4}
+.day.star .day-c p{color:#fff}
+.on .day.star .d{background:var(--green);box-shadow:0 0 0 6px rgba(14,182,124,.2)}
+.week + .fine{margin-top:22px;text-align:center}
+
+/* FAQ */
+.faq{max-width:780px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.faq details{border-radius:18px;background:#fff;border:1px solid var(--line);transition:box-shadow .3s,border-color .3s}
+.faq details[open]{border-color:#c5d3f5;box-shadow:0 18px 40px -26px rgba(36,92,232,.5)}
+.faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:14px;padding:20px 22px;font:700 17.5px/1.35 'Plus Jakarta Sans',sans-serif;letter-spacing:-.01em}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .pl{margin-left:auto;flex:none;width:30px;height:30px;border-radius:10px;display:grid;place-items:center;background:var(--soft);color:var(--brand);transition:transform .3s,background .3s}
+.faq summary .pl .ico{width:16px;height:16px}
+.faq details[open] .pl{transform:rotate(45deg);background:var(--brand);color:#fff}
+.faq .a{padding:0 22px 20px;color:var(--text-2);font-size:16.5px}
+.faq details[open] .a{animation:up .4s var(--ease)}
+
+/* CTA FINALE */
+.final{overflow:hidden;background:radial-gradient(60% 50% at 50% 100%,rgba(36,92,232,.38),transparent 70%),radial-gradient(40% 40% at 90% 10%,rgba(155,79,208,.25),transparent 70%),var(--navy)}
+.final-grid{display:grid;gap:22px;max-width:980px;margin:0 auto}
+@media(min-width:900px){.final-grid{grid-template-columns:1fr 1fr}}
+.panel{padding:26px;border-radius:24px;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.1)}
+.panel .eyebrow{margin-bottom:16px}
+.recap{display:flex;flex-direction:column;gap:12px}
+.recap li{display:flex;gap:11px;align-items:flex-start;color:#e2e8f0;font-size:15.5px;line-height:1.45}
+.recap .ico{width:20px;height:20px;margin-top:1px;padding:3px;border-radius:50%;background:rgba(14,182,124,.2);color:#34d399;stroke-width:3}
+.intent-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font:800 clamp(24px,3vw,30px) 'Plus Jakarta Sans',sans-serif;color:#fff;letter-spacing:-.02em}
+.intent-row input{font:700 clamp(22px,2.8vw,28px) 'JetBrains Mono',monospace;color:#fff;background:rgba(36,92,232,.2);border:1.5px solid rgba(147,180,255,.5);border-radius:12px;padding:6px 12px;color-scheme:dark;min-width:0}
+.intent-row input:focus{outline:none;border-color:var(--sky);box-shadow:0 0 0 4px rgba(147,180,255,.2)}
+.intent-btns{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 12px}
+.sbtn{display:inline-flex;align-items:center;gap:8px;padding:11px 14px;border-radius:11px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:#fff;font:700 14px 'Plus Jakarta Sans',sans-serif;text-decoration:none;transition:.2s}
+.sbtn:hover{background:rgba(255,255,255,.14)}
+.sbtn .ico{width:16px;height:16px}
+.intent-ok{min-height:20px;font-size:14px;color:#34d399}
+.panel .small{font-size:14px;color:#8592ab;margin-top:6px}
+.panel .small b{color:#cbd5e1}
+.go-box{grid-column:1/-1;display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center;padding:34px 22px;border-radius:28px;background:linear-gradient(180deg,rgba(36,92,232,.2),rgba(36,92,232,.05));border:1px solid rgba(147,180,255,.25)}
+.go-steps{display:grid;gap:10px;width:100%;max-width:760px;text-align:left}
+@media(min-width:760px){.go-steps{grid-template-columns:repeat(3,1fr)}}
+.go-steps li{display:flex;gap:12px;align-items:center;padding:12px 14px;border-radius:14px;background:rgba(5,9,20,.5);font-size:15px;color:#e2e8f0;line-height:1.35}
+.go-steps .k{flex:none;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:var(--brand);color:#fff;font:700 13px 'JetBrains Mono',monospace}
+.foot{padding:40px 0 120px;background:var(--navy);border-top:1px solid rgba(255,255,255,.06);color:#8592ab}
+@media(min-width:760px){.foot{padding-bottom:48px}}
+.foot .wrap{display:flex;flex-direction:column;gap:14px}
+.foot .dm{font:700 17px 'Plus Jakarta Sans',sans-serif;color:#fff}
+
+/* sticky mobile */
+.sticky{position:fixed;left:12px;right:12px;bottom:12px;z-index:70;display:flex;transform:translateY(140%);transition:transform .45s var(--ease)}
+.sticky.show{transform:none}
+.sticky .btn{flex:1;padding:17px 20px;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 16px 40px -6px rgba(5,9,20,.6),0 0 0 1px rgba(29,78,216,.7)}
+@media(min-width:900px){.sticky{display:none}}
+
+/* PDF GRATUITO in apertura */
+.gift{position:relative;display:grid;grid-template-columns:88px 1fr;gap:16px;align-items:center;max-width:560px;margin-bottom:30px;padding:14px 16px 16px 14px;border-radius:20px;background:#fff;color:var(--ink);box-shadow:0 26px 60px -24px rgba(14,182,124,.55),0 0 0 1px rgba(255,255,255,.25)}
+.gift-img{width:88px;height:auto;border-radius:8px;transform:rotate(-4deg);box-shadow:0 10px 22px -8px rgba(15,23,42,.55)}
+.gift-tag{display:inline-block;padding:4px 8px;border-radius:6px;background:#e3f7ef;color:#047857;font:700 10.5px/1.2 'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase}
+.gift b{display:block;margin:7px 0 4px;font:800 17px/1.25 'Plus Jakarta Sans',sans-serif;letter-spacing:-.015em}
+.gift small{display:block;font-size:13.5px;line-height:1.4;color:var(--text-2)}
+.btn-pdf{display:inline-flex;align-items:center;gap:8px;margin-top:12px;padding:12px 16px;border-radius:12px;background:linear-gradient(180deg,#13c98d,#0a9f6c);color:#fff;text-decoration:none;font:700 15px/1 'Plus Jakarta Sans',sans-serif;box-shadow:0 10px 24px -10px rgba(14,182,124,.9),0 0 0 1px #08905f;animation:glowg 2.6s ease-in-out infinite}
+.btn-pdf .ico{width:18px;height:18px;stroke-width:2.4}
+@keyframes glowg{50%{box-shadow:0 10px 30px -6px rgba(14,182,124,1),0 0 0 1px #08905f,0 0 0 6px rgba(14,182,124,.16)}}
+@media(max-width:420px){.gift{grid-template-columns:68px 1fr;gap:12px}.gift-img{width:68px}.gift b{font-size:16px}}
+.foot-pdf{display:inline-flex;align-items:center;gap:8px;color:#5eead4;font-weight:700;text-decoration:none}
+.foot-pdf .ico{width:16px;height:16px}
+
+/* problemi più compatti */
+@media(min-width:1000px){.pains{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.pain h3{font-size:19px}.pain p{font-size:15px}}
+@media(max-width:759px){
+  .pains{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:0 -20px;padding:2px 20px 14px;scrollbar-width:none}
+  .pains::-webkit-scrollbar{display:none}
+  .pain{flex:0 0 84%;scroll-snap-align:center}
+}
+.swipe-hint{display:none;justify-content:center;gap:8px;align-items:center;margin-top:4px;font-size:13.5px;color:#8592ab}
+.swipe-hint .ico{width:16px;height:16px}
+@media(max-width:759px){.swipe-hint{display:flex}}
+
+/* radar: lavori che nessuno trova */
+.rd-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}
+.rd-top .live{display:flex;align-items:center;gap:8px;font:700 13px 'Plus Jakarta Sans',sans-serif}
+.rd-top .live i{width:8px;height:8px;border-radius:50%;background:var(--green);animation:ping 2s infinite}
+.rd-km{font-size:12px;color:var(--text-2);padding:5px 8px;border-radius:7px;background:#f1f4f9}
+.rd-map{position:relative;aspect-ratio:1.5;border-radius:16px;overflow:hidden;background:radial-gradient(circle at 50% 50%,#16244f 0,#0a1226 72%)}
+.rring{position:absolute;left:50%;top:50%;width:calc(var(--s)*86%);aspect-ratio:1;border:1px solid rgba(147,180,255,.22);border-radius:50%;transform:translate(-50%,-50%)}
+.sweep{position:absolute;left:50%;top:50%;width:130%;aspect-ratio:1;border-radius:50%;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,rgba(96,165,250,.38),rgba(96,165,250,0) 22%,transparent);animation:sweep 4s linear infinite;animation-play-state:paused}
+.on .sweep{animation-play-state:running}
+@keyframes sweep{to{transform:translate(-50%,-50%) rotate(360deg)}}
+.rdot{position:absolute;width:9px;height:9px;margin:-4.5px 0 0 -4.5px;border-radius:50%;background:#64748b;opacity:.8}
+.you{position:absolute;left:50%;top:50%;z-index:2;width:40px;height:40px;margin:-20px 0 0 -20px;border-radius:50%;display:grid;place-items:center;background:#fff;color:var(--ink);font:800 11px 'Plus Jakarta Sans',sans-serif;box-shadow:0 0 0 6px rgba(255,255,255,.12)}
+.pin{position:absolute;z-index:2;width:32px;height:32px;margin:-16px 0 0 -16px;border-radius:50%;display:grid;place-items:center;color:#fff;font:800 13px 'Plus Jakarta Sans',sans-serif;transform:scale(0);transition:transform .45s cubic-bezier(.3,1.7,.5,1)}
+.pin.show{transform:scale(1);animation:pinp 1.8s .45s infinite}
+@keyframes pinp{0%{box-shadow:0 0 0 0 rgba(147,180,255,.7)}100%{box-shadow:0 0 0 16px rgba(147,180,255,0)}}
+.rd-leg{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:10px;font-size:12px;color:var(--muted)}
+.rd-leg i{display:inline-block;width:8px;height:8px;margin-right:6px;border-radius:50%}
+.rd-list{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+.rd-list li{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:10px;align-items:center;padding:9px 10px;border-radius:12px;border:1px solid var(--line);opacity:0;transform:translateY(8px);transition:opacity .45s var(--ease),transform .45s var(--ease)}
+.rd-list li.show{opacity:1;transform:none}
+.rd-list .lg{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;color:#fff;font:800 14px 'Plus Jakarta Sans',sans-serif}
+.rd-list b{display:block;font:700 13.5px/1.25 'Plus Jakarta Sans',sans-serif}
+.rd-list small{display:block;font-size:12px;line-height:1.35;color:var(--muted)}
+.rs{padding:5px 7px;border-radius:6px;background:var(--soft);color:var(--brand);font:700 10px 'JetBrains Mono',monospace;white-space:nowrap;transition:.3s}
+.rs.sent{background:#e3f7ef;color:#047857}
+
+/* E non finisce qui */
+.bento-hd{margin:120px 0 40px}
+.bento{display:grid;gap:16px}
+@media(min-width:760px){.bento{grid-template-columns:1fr 1fr;gap:20px}.tile.wide{grid-column:1/-1}}
+.tile{display:flex;flex-direction:column;gap:12px;padding:16px 16px 22px;border-radius:24px;background:#fff;border:1px solid var(--line);box-shadow:0 1px 2px rgba(15,23,42,.04),0 20px 50px -30px rgba(15,23,42,.25)}
+.tl-ui{position:relative;height:250px;padding:16px;border-radius:16px;overflow:hidden;display:grid;place-items:center;align-content:center;gap:8px;background:radial-gradient(rgba(36,92,232,.13) 1px,transparent 1px) 0 0/18px 18px,linear-gradient(135deg,#e8efff,#f1e8fb)}
+.tile h4{margin:4px 6px 0;font:800 21px/1.15 'Plus Jakarta Sans',sans-serif;letter-spacing:-.02em}
+.tile p{margin:0 6px;font-size:15.5px;color:var(--text-2)}
+.tile.wide{background:var(--navy);border-color:transparent}
+.tile.wide h4{color:#fff}
+.tile.wide .fine{color:#5f6c86}
+.incl{display:flex;flex-wrap:wrap;gap:8px;margin:0 6px}
+.incl span{padding:9px 13px;border-radius:11px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);color:#e2e8f0;font:700 14px 'Plus Jakarta Sans',sans-serif}
+.rules,.stl,.board,.sh{width:min(340px,100%)}
+.rules{padding:6px 14px;border-radius:14px;background:#fff;box-shadow:0 14px 30px -18px rgba(15,23,42,.45)}
+.rule{display:grid;grid-template-columns:minmax(0,1fr) auto 34px;gap:10px;align-items:center;padding:7px 0;border-bottom:1px solid #eef1f6;font-size:12.5px;color:var(--muted)}
+.rule b{font:700 12.5px 'Plus Jakarta Sans',sans-serif;color:var(--ink);text-align:right;white-space:nowrap}
+.tg{position:relative;width:34px;height:20px;border-radius:10px;background:#d6dce6;transition:background .3s calc(var(--i)*.25s + .2s)}
+.tg::after{content:'';position:absolute;left:3px;top:3px;width:14px;height:14px;border-radius:50%;background:#fff;transition:transform .3s calc(var(--i)*.25s + .2s)}
+.on .tg{background:var(--green)}
+.on .tg::after{transform:translateX(14px)}
+.rules-f{display:flex;justify-content:space-between;padding:8px 0 4px;font:700 12px 'Plus Jakarta Sans',sans-serif;color:var(--brand)}
+.stl{padding:6px;border-radius:14px;background:#fff;box-shadow:0 14px 30px -18px rgba(15,23,42,.45)}
+.stl li{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:10px;align-items:center;padding:9px 8px;border-radius:10px}
+.stl .lg{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;color:#fff;font:800 14px 'Plus Jakarta Sans',sans-serif;transition:filter .5s .6s}
+.stl b{display:block;font:700 13.5px/1.25 'Plus Jakarta Sans',sans-serif}
+.stl small{display:block;font-size:11.5px;line-height:1.35;color:var(--muted)}
+.sc2{font:800 15px 'Plus Jakarta Sans',sans-serif;color:var(--brand)}
+.me-co{background:#f4f6fa}
+.me-co div{transition:opacity .5s .6s}
+.on .me-co .lg{filter:blur(3px)}
+.on .me-co div{opacity:.55}
+.hid{padding:5px 7px;border-radius:6px;background:var(--ink);color:#fff;font:700 9.5px 'JetBrains Mono',monospace;letter-spacing:.06em;text-transform:uppercase;transform:scale(0);transition:transform .4s cubic-bezier(.3,1.7,.5,1) 1s}
+.on .hid{transform:none}
+.stl-badge{justify-self:end;display:flex;align-items:center;gap:6px;padding:5px 9px;border-radius:999px;background:#fff;color:#047857;font:700 11px 'Plus Jakarta Sans',sans-serif;box-shadow:0 4px 12px -6px rgba(15,23,42,.35)}
+.stl-badge i{width:7px;height:7px;border-radius:50%;background:var(--green);animation:ping 2s infinite}
+.bd-n{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.bd-n div{padding:14px 6px;border-radius:12px;background:#fff;text-align:center;box-shadow:0 10px 24px -16px rgba(15,23,42,.45)}
+.bd-n b{display:block;font:800 30px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:-.03em}
+.bd-n div:nth-child(3) b{color:var(--green)}
+.bd-n span{font-size:11.5px;color:var(--muted)}
+.bd-mail{display:flex;gap:10px;align-items:center;margin-top:10px;padding:10px 12px;border-radius:12px;background:#fff;box-shadow:0 10px 24px -16px rgba(15,23,42,.45);opacity:0;transform:translateY(10px);transition:.5s var(--ease)}
+.bd-mail.show{opacity:1;transform:none}
+.bd-mail b{display:block;font:700 13px 'Plus Jakarta Sans',sans-serif}
+.bd-mail small{font-size:11.5px;color:var(--muted)}
+.sh{padding:12px 14px;border-radius:14px;background:#fff;box-shadow:0 14px 30px -18px rgba(15,23,42,.45)}
+.sh-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:6px;padding-bottom:8px;border-bottom:1px solid #eef1f6}
+.sh-h b{font:800 13.5px 'Plus Jakarta Sans',sans-serif}
+.sh-h span{font-size:11.5px;color:var(--muted);white-space:nowrap}
+.sh-l{display:block;margin-top:6px;font:700 9.5px 'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--violet)}
+.sh-q{margin:4px 0 2px;padding:6px 8px;border-radius:8px;background:#f5f7fb;font-size:12.5px;line-height:1.4;color:var(--ink)}
+.sh-ok{margin-top:8px;font:700 12.5px 'Plus Jakarta Sans',sans-serif;color:#047857}
+.sh > *{opacity:0;transform:translateY(6px);transition:opacity .4s calc(var(--i)*.25s),transform .4s calc(var(--i)*.25s)}
+.on .sh > *{opacity:1;transform:none}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;transition-delay:0s!important;scroll-behavior:auto!important}
+  .js .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#245ce8"/><stop offset="1" stop-color="#9b4fd0"/></linearGradient>
+  </defs>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-bm" viewBox="0 0 24 24"><path d="M7 4h10v16l-5-4-5 4z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></symbol>
+  <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 6l3 3"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="M21 3L10 14"/><path d="M21 3l-7 18-4-7-7-4z"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></symbol>
+  <symbol id="i-hand" viewBox="0 0 24 24"><path d="M5 12h12M13 7l5 5-5 5"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 10-2.3 5.7"/><path d="M20 4v7h-7"/></symbol>
+  <symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5"/><path d="M5 20h14"/></symbol>
+  <symbol id="i-inbox" viewBox="0 0 24 24"><path d="M3 13l3-8h12l3 8v6H3z"/><path d="M3 13h5l1.5 2.5h5L16 13h5"/></symbol>
+</svg>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="bicon"><svg class="ico"><use href="#i-check"/></svg></span>Guida a Jobra</a>
+    <a class="btn go" href="https://jobra.it/?aff=DANZ">Inizia <span class="arr">→</span></a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero dark grid-bg">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="gift rv">
+        <img class="gift-img" src="pdf-anteprima.jpg" alt="Anteprima del PDF: Cosa pensa davvero il recruiter" width="300" height="370">
+        <div>
+          <span class="gift-tag">PDF gratuito · 9 pagine</span>
+          <b>Cosa pensa davvero il recruiter mentre ti fa le domande</b>
+          <small>Le 5 domande più frequenti decodificate, i 2 metodi per rispondere a tutto il resto e il test dei 90 secondi.</small>
+          <a class="btn-pdf" href="Segreti_dei_recruiter_colloquio.pdf" download target="_blank" rel="noopener"><svg class="ico"><use href="#i-dl"/></svg>Scarica il PDF gratis</a>
+        </div>
+      </div>
+      <h1 class="rv" style="--d:.08s">Trova lavoro senza rubare <span class="sel">tempo<i></i><i></i></span> alla tua vita.</h1>
+      <p class="lead rv" style="--d:.16s">Per chi cerca lavoro la sera, dopo il lavoro, e ha la sensazione di non arrivare da nessuna parte. Jobra trova le offerte, adatta CV e lettera a ognuna e si candida a tuo nome. <b style="color:#fff">Tu decidi quanto controllo tenere.</b></p>
+      <div class="cta-row rv" style="--d:.24s" id="heroCta">
+        <a class="btn btn-lg btn-glow go" href="https://jobra.it/?aff=DANZ">Inizia su jobra.it <span class="arr">→</span></a>
+        <a class="btn btn-lg btn-ghost" href="#funzioni">Scopri le funzioni <svg class="ico"><use href="#i-down"/></svg></a>
+      </div>
+      <div class="micro rv" style="--d:.3s">
+        <span><svg class="ico"><use href="#i-check"/></svg>Pronto in 5 minuti</span>
+        <span><svg class="ico"><use href="#i-check"/></svg>Disdici quando vuoi</span>
+        <span><svg class="ico"><use href="#i-check"/></svg>Il tuo nome su ogni candidatura</span>
+      </div>
+      <div class="stats rv" style="--d:.36s">
+        <div class="stat"><b data-count="13000" data-suf="+">13.000+</b><span>colloqui ottenuti dagli utenti</span></div>
+        <div class="stat"><b data-count="1500" data-suf="+">1.500+</b><span>recensioni verificate</span></div>
+        <div class="stat"><b>5 min</b><span>per impostarlo la prima volta</span></div>
+      </div>
+      <p class="fine rv" style="--d:.4s">Numeri pubblicati su jobra.it.</p>
+    </div>
+
+    <div class="phone-wrap rv" style="--d:.2s">
+      <div class="float f1"><svg class="ico"><use href="#i-check"/></svg>ATS 91</div>
+      <div class="float f2"><svg class="ico"><use href="#i-check"/></svg>Lettera pronta</div>
+      <div class="float f3"><svg class="ico"><use href="#i-check"/></svg>92% compatibile</div>
+      <div class="phone" data-demo="hero">
+        <div class="ph-notch"></div>
+        <div class="ph-screen">
+          <div class="ph-status"><span class="ph-time">7:02</span><span class="bars"><i style="height:5px"></i><i style="height:7px"></i><i style="height:9px"></i><i style="height:11px"></i></span></div>
+          <div class="ph-night">
+            <span class="star" style="left:18%;top:20%"></span><span class="star" style="left:72%;top:14%;animation-delay:.6s"></span><span class="star" style="left:84%;top:34%;animation-delay:1.1s"></span><span class="star" style="left:30%;top:70%;animation-delay:1.6s"></span><span class="star" style="left:62%;top:80%;animation-delay:.3s"></span>
+            <svg class="ico"><use href="#i-moon"/></svg>
+            <div class="ph-clock">23:00</div>
+            <p>Tu dormi. Jobra cerca.</p>
+          </div>
+          <div class="ph-banner"><span class="fi g"><svg class="ico"><use href="#i-mail"/></svg></span><div><b>Nuova email · Studio Nord</b><small>«Hai 20 minuti giovedì?»</small></div></div>
+          <div class="ph-head"><div class="ph-logo">J</div><div><b>Jobra</b><span>stamattina</span></div><span class="tag">Esempio</span></div>
+          <ul class="feed">
+            <li data-t="7:02"><span class="fi b"><svg class="ico"><use href="#i-target"/></svg></span><div><b>Nuovo match: Marketing Specialist</b><small>92% compatibile · Milano o da remoto</small></div><span class="ft mono">7:02</span></li>
+            <li data-t="7:03"><span class="fi v"><svg class="ico"><use href="#i-doc"/></svg></span><div><b>CV adattato all'annuncio</b><small>Titolo e competenze allineati · ATS 91</small></div><span class="ft mono">7:03</span></li>
+            <li data-t="7:03"><span class="fi v"><svg class="ico"><use href="#i-pen"/></svg></span><div><b>Lettera di presentazione pronta</b><small>Scritta per quell'azienda, dal tuo CV</small></div><span class="ft mono">7:03</span></li>
+            <li data-t="9:00"><span class="fi b"><svg class="ico"><use href="#i-send"/></svg></span><div><b>Candidatura inviata a tuo nome</b><small>Approvata da te con uno swipe</small></div><span class="ft mono">9:00</span></li>
+            <li data-t="10:41"><span class="fi g"><svg class="ico"><use href="#i-mail"/></svg></span><div><b>Richiesta di colloquio</b><small>«Hai 20 minuti giovedì?»</small></div><span class="ft mono">10:41</span></li>
+          </ul>
+          <div class="ph-sum"><span>Il tuo lavoro stamattina</span><b>1 swipe · 2 secondi</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="down"><svg class="ico"><use href="#i-down"/></svg></div>
+</section>
+
+<!-- TI RICONOSCI -->
+<section class="dark grid-bg" id="riconosci">
+  <div class="wrap">
+    <div class="hd center">
+      <span class="eyebrow rv">Ti riconosci?</span>
+      <h2 class="rv" style="--d:.06s">Spunta quelle che conosci.<br>Ne basta <span class="sel">una<i></i><i></i></span>.</h2>
+      <p class="lead rv" style="--d:.12s">Sono le abitudini di chiunque cerchi lavoro senza un sistema.</p>
+    </div>
+    <div class="pains">
+      <article class="pain rv">
+        <div class="pain-ui" data-demo="p1">
+          <div class="mini">
+            <div class="m-h"><svg class="ico"><use href="#i-bm"/></svg>Salvati «per dopo»<span class="n p1n">0</span></div>
+            <div class="m-rows"><div class="m-row"><svg class="ico"><use href="#i-bm"/></svg><i></i><i></i></div><div class="m-row"><svg class="ico"><use href="#i-bm"/></svg><i></i><i></i></div><div class="m-row"><svg class="ico"><use href="#i-bm"/></svg><i></i><i></i></div><div class="m-row"><svg class="ico"><use href="#i-bm"/></svg><i></i><i></i></div></div>
+            <div class="m-f"><span>Candidature inviate</span><b>3</b></div>
+          </div>
+        </div>
+        <div class="pain-tx"><h3>Il collezionista</h3><p>47 annunci salvati «per dopo». Candidature inviate: 3.</p></div>
+        <button class="me" type="button" aria-pressed="false"><span class="box"><svg class="ico"><use href="#i-check"/></svg></span>Sono io</button>
+      </article>
+      <article class="pain rv" style="--d:.08s">
+        <div class="pain-ui" data-demo="p2">
+          <div class="mini">
+            <div class="m-h"><svg class="ico"><use href="#i-inbox"/></svg>Posta in arrivo<span class="spin"></span></div>
+            <span class="r-when mono">13:05 · pausa pranzo</span>
+            <div class="r-box"><div class="r-empty"><svg class="ico"><use href="#i-inbox"/></svg>Nessun nuovo messaggio</div></div>
+          </div>
+        </div>
+        <div class="pain-tx"><h3>Il refresh</h3><p>Controlli la mail in pausa pranzo, al semaforo e prima di dormire. Niente.</p></div>
+        <button class="me" type="button" aria-pressed="false"><span class="box"><svg class="ico"><use href="#i-check"/></svg></span>Sono io</button>
+      </article>
+      <article class="pain rv">
+        <div class="pain-ui" data-demo="p3">
+          <div class="mini lt">
+            <div class="lt-to"><span class="mono">lettera_DEF_v7.docx</span><span>Per: <b class="to">Officina Verde</b></span></div>
+            <p>Gentile team di <span class="co">Officina Verde</span><span class="car"></span>,</p>
+            <div class="skel"><i></i><i></i><i style="width:72%"></i></div>
+            <span class="lt-err">Azienda sbagliata</span>
+          </div>
+        </div>
+        <div class="pain-tx"><h3>Il copia-incolla</h3><p>Stesso CV, stessa lettera. Cambi solo il nome dell'azienda, quando te lo ricordi.</p></div>
+        <button class="me" type="button" aria-pressed="false"><span class="box"><svg class="ico"><use href="#i-check"/></svg></span>Sono io</button>
+      </article>
+      <article class="pain rv" style="--d:.08s">
+        <div class="pain-ui" data-demo="p4">
+          <div class="mini">
+            <div class="s-row"><span>Candidature inviate</span><b class="s1">0</b></div>
+            <div class="s-row zero"><span>Risposte</span><b>0</b></div>
+            <svg class="spark" viewBox="0 0 260 56" preserveAspectRatio="none"><path class="up" d="M2 52 L40 46 L80 40 L120 30 L160 24 L200 14 L258 6"/><path class="flat" d="M2 52 H258"/></svg>
+          </div>
+        </div>
+        <div class="pain-tx"><h3>Il silenzio</h3><p>Decine di candidature, zero risposte. E inizi a pensare che il problema sia tu.</p></div>
+        <button class="me" type="button" aria-pressed="false"><span class="box"><svg class="ico"><use href="#i-check"/></svg></span>Sono io</button>
+      </article>
+    </div>
+    <p class="swipe-hint">Scorri per vederle tutte <svg class="ico"><use href="#i-hand"/></svg></p>
+    <div class="pain-res" id="painRes">
+      <p class="no">Tocca <b>«Sono io»</b> sulle situazioni che ti somigliano.</p>
+      <div class="ok"><p><b class="pc">Ne hai spuntata una.</b> Non è un problema di volontà.</p><p>Qui sotto vediamo perché succede, e perché non è colpa tua.</p><div class="down" style="margin-top:20px"><svg class="ico"><use href="#i-down"/></svg></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PERCHÉ SUCCEDE -->
+<section id="perche">
+  <div class="wrap">
+    <div class="hd">
+      <span class="eyebrow rv">Perché succede</span>
+      <h2 class="rv" style="--d:.06s">Non è pigrizia.<br>È <span class="sel">matematica<i></i><i></i></span>.</h2>
+      <p class="lead rv" style="--d:.12s">Una candidatura fatta bene è un piccolo progetto. E la sera, dopo otto ore di lavoro, la lucidità è finita: si chiama <b>affaticamento decisionale</b>, e rimandare è la reazione normale del cervello.</p>
+    </div>
+    <div class="math">
+      <div class="card rv" data-demo="calc">
+        <div class="card-h"><span>Una candidatura curata</span><b>≈ <span class="tot">60</span> min</b></div>
+        <div class="rows">
+          <div class="row"><span>Trovare l'offerta e capire se fa per te</span><b>15'</b><span class="bar"><i style="--w:75%;--i:0"></i></span></div>
+          <div class="row"><span>Adattare il CV all'annuncio</span><b>20'</b><span class="bar"><i style="--w:100%;--i:1"></i></span></div>
+          <div class="row"><span>Scrivere la lettera di presentazione</span><b>20'</b><span class="bar"><i style="--w:100%;--i:2"></i></span></div>
+          <div class="row"><span>Inviare e segnarti dove ti sei candidato</span><b>5'</b><span class="bar"><i style="--w:25%;--i:3"></i></span></div>
+        </div>
+        <p class="fine">Stima indicativa per una candidatura personalizzata a mano.</p>
+      </div>
+      <div class="card rv" style="--d:.08s" data-demo="cal">
+        <p class="cal-big"><span>10 candidature</span> = <span style="color:var(--brand)">10 ore</span></p>
+        <p class="cal-sub">Un'ora ogni sera, per due settimane lavorative.</p>
+        <div class="cal-grid">
+          <span class="dl">L</span><span class="dl">M</span><span class="dl">M</span><span class="dl">G</span><span class="dl">V</span>
+          <span class="cell" style="--i:0">1h</span><span class="cell" style="--i:1">1h</span><span class="cell" style="--i:2">1h</span><span class="cell" style="--i:3">1h</span><span class="cell" style="--i:4">1h</span>
+          <span class="cell" style="--i:5">1h</span><span class="cell" style="--i:6">1h</span><span class="cell" style="--i:7">1h</span><span class="cell" style="--i:8">1h</span><span class="cell" style="--i:9">1h</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="mq-clip"><div class="marquee" aria-hidden="true"><div class="mq-track">
+  <span>Tante candidature ✦ <em>ognuna</em> su misura ✦ Decidi tu ✦ Le serate restano <em>tue</em> ✦</span>
+  <span>Tante candidature ✦ <em>ognuna</em> su misura ✦ Decidi tu ✦ Le serate restano <em>tue</em> ✦</span>
+</div></div></div>
+
+<!-- SOLUZIONE -->
+<section class="dark sol grid-bg" id="soluzione">
+  <div class="wrap">
+    <div class="hd center">
+      <span class="eyebrow pill rv"><span class="dot"></span>La soluzione</span>
+      <h2 class="rv" style="--d:.06s">E se le candidature partissero mentre <span class="sel">dormi<i></i><i></i></span>?</h2>
+      <p class="lead rv" style="--d:.12s">Jobra mette la tua ricerca in pilota automatico: trova le offerte compatibili, adatta CV e lettera a ognuna e le invia a tuo nome. Tu scegli quanto controllo tenere, e fai i colloqui.</p>
+    </div>
+    <div class="pipe-box rv" data-demo="pipe">
+      <div class="pipe-top"><span class="live"><i></i>Jobra al lavoro</span><span class="tag">Esempio</span></div>
+      <div class="pipe">
+        <div class="pipe-line"><i class="pipe-fill"></i></div>
+        <div class="node"><span class="n-ic"><svg class="ico"><use href="#i-target"/></svg></span><div><b>Offerta trovata</b><small>Marketing Specialist · 92% compatibile</small></div></div>
+        <div class="node"><span class="n-ic"><svg class="ico"><use href="#i-doc"/></svg></span><div><b>CV su misura</b><small>Titolo e competenze allineati · ATS 91</small></div></div>
+        <div class="node"><span class="n-ic"><svg class="ico"><use href="#i-pen"/></svg></span><div><b>Lettera pronta</b><small>Scritta per quell'azienda, dal tuo CV</small></div></div>
+        <div class="node"><span class="n-ic"><svg class="ico"><use href="#i-send"/></svg></span><div><b>Inviata a tuo nome</b><small>Approvata da te con uno swipe</small></div></div>
+        <div class="node"><span class="n-ic"><svg class="ico"><use href="#i-mail"/></svg></span><div><b>Colloquio</b><small>«Hai 20 minuti giovedì?»</small></div></div>
+      </div>
+    </div>
+    <div class="steps3">
+      <div class="step rv"><span class="k">1</span><div><b>Carichi il CV che hai già</b><span>E scegli ruolo, zona e stipendio minimo.</span></div></div>
+      <div class="step rv" style="--d:.08s"><span class="k">2</span><div><b>Jobra prepara le candidature</b><span>CV e lettera su misura per ogni offerta.</span></div></div>
+      <div class="step rv" style="--d:.16s"><span class="k">3</span><div><b>Tu approvi e fai i colloqui</b><span>Le risposte arrivano nella tua email.</span></div></div>
+    </div>
+    <p class="fine" style="text-align:center;margin-top:16px">Schermata di esempio: nomi e orari sono di fantasia.</p>
+  </div>
+</section>
+
+<!-- FUNZIONI -->
+<section id="funzioni">
+  <div class="wrap">
+    <div class="hd center">
+      <span class="eyebrow rv">Le 5 funzioni</span>
+      <h2 class="rv" style="--d:.06s">Il lavoro noioso lo fa <span class="sel">Jobra<i></i><i></i></span>.</h2>
+      <p class="lead rv" style="--d:.12s">Sei funzioni principali, più tutto il resto. Ognuna ti toglie un pezzo di fatica, le decisioni restano tue.</p>
+    </div>
+
+    <div class="feats">
+      <!-- F1 -->
+      <div class="feat">
+        <div class="feat-tx">
+          <span class="eyebrow rv"><span class="num">1</span>Auto candidature</span>
+          <h3 class="rv" style="--d:.06s">Candidature ogni giorno. Decidi tu chi preme invio.</h3>
+          <p class="rv" style="--d:.1s">Ogni giorno Jobra trova le offerte adatte a te e prepara la candidatura completa. Tu scegli come farla partire.</p>
+          <div class="modes rv" style="--d:.14s">
+            <button class="mode on" type="button" data-mode="approve" aria-pressed="true"><span class="mode-h"><b>Approvi tu</b><span class="badge">Si parte da qui</span></span><span>Ogni candidatura arriva già pronta. Parte solo quello che sposti a destra.</span></button>
+            <button class="mode" type="button" data-mode="auto" aria-pressed="false"><span class="mode-h"><b>Invio automatico</b></span><span>Jobra si candida da solo, dalle 7 alle 21, entro ruoli, zone, stipendio e limite giornaliero che scegli tu.</span></button>
+          </div>
+          <p class="try rv" style="--d:.16s"><svg class="ico"><use href="#i-hand"/></svg>Provalo: trascina la scheda o tocca una modalità.</p>
+          <div class="why rv" style="--d:.18s"><span class="eyebrow">Perché funziona</span><p>Fidarsi di un sistema nuovo richiede tempo, ed è normale. Parti approvando tu: vedi quali offerte sceglie Jobra e come scrive. <b>Quando ti convince, attivi l'invio automatico.</b> La fiducia si costruisce sui fatti, un passo alla volta.</p></div>
+        </div>
+        <div class="feat-demo rv" style="--d:.1s"><div class="stage">
+          <div class="demo sw" data-demo="swipe" data-mode="approve">
+            <div class="sw-head"><span class="live"><i></i><span class="sw-mode">Approvi tu</span></span><span class="mono sw-count">Inviate oggi: 0</span></div>
+            <div class="sw-deck"></div>
+            <div class="sw-btns"><button class="b-skip" type="button">← Salta</button><button class="b-send" type="button">Invia →</button></div>
+            <div class="demo-foot"><span class="sw-st">Trascina a destra per inviare</span><span class="tag">Esempio</span></div>
+            <div class="sw-toast">Inviata a tuo nome ✓</div>
+          </div>
+        </div></div>
+      </div>
+
+      <!-- F2 -->
+      <div class="feat rev">
+        <div class="feat-tx">
+          <span class="eyebrow rv"><span class="num">2</span>Solo su Jobra</span>
+          <h3 class="rv" style="--d:.06s">I lavori che nessuno trova. Jobra sì.</h3>
+          <p class="rv" style="--d:.1s">Sui siti di annunci vi contendete tutti le stesse offerte. Jobra trova anche le posizioni che non vedi altrove, vicino a te e nel tuo settore, e ti fa arrivare prima degli altri.</p>
+          <ul class="checks rv" style="--d:.14s">
+            <li><svg class="ico"><use href="#i-check"/></svg>Meno concorrenza: offerte che gli altri non vedono.</li>
+            <li><svg class="ico"><use href="#i-check"/></svg>Vicino a te: vedi subito a quanti km è ogni azienda.</li>
+          </ul>
+        </div>
+        <div class="feat-demo rv" style="--d:.1s"><div class="stage">
+          <div class="demo radar" data-demo="radar">
+            <div class="rd-top"><span class="live"><i></i>Ricerca attiva</span><span class="rd-km mono">Raggio 15 km</span></div>
+            <div class="rd-map">
+              <span class="rring" style="--s:1"></span><span class="rring" style="--s:.66"></span><span class="rring" style="--s:.33"></span>
+              <span class="sweep"></span>
+              <span class="rdot" style="left:18%;top:22%"></span><span class="rdot" style="left:30%;top:64%"></span><span class="rdot" style="left:58%;top:16%"></span><span class="rdot" style="left:84%;top:42%"></span><span class="rdot" style="left:44%;top:84%"></span><span class="rdot" style="left:70%;top:86%"></span>
+              <span class="you">Tu</span>
+              <span class="pin" style="left:66%;top:30%;background:#245ce8">S</span>
+              <span class="pin" style="left:26%;top:40%;background:#9b4fd0">C</span>
+              <span class="pin" style="left:78%;top:68%;background:#0eb67c">F</span>
+            </div>
+            <div class="rd-leg"><span><i style="background:#64748b"></i>Offerte che vedono tutti</span><span><i style="background:#60a5fa"></i>Trovate solo da Jobra</span></div>
+            <ul class="rd-list">
+              <li><span class="lg" style="background:#245ce8">S</span><div><b>Studio Nord</b><small>Comunicazione · 3,9 km</small></div><span class="rs">Trovata da Jobra</span></li>
+              <li><span class="lg" style="background:#9b4fd0">C</span><div><b>Casa Lumi</b><small>E-commerce · 7 km</small></div><span class="rs">Trovata da Jobra</span></li>
+              <li><span class="lg" style="background:#0eb67c">F</span><div><b>Ferro &amp; Co</b><small>Marketing · 11 km</small></div><span class="rs">Trovata da Jobra</span></li>
+            </ul>
+          </div>
+          <div class="demo-foot"><span>Esempio: nomi e distanze sono di fantasia.</span></div>
+        </div></div>
+      </div>
+
+      <!-- F3 -->
+      <div class="feat">
+        <div class="feat-tx">
+          <span class="eyebrow rv"><span class="num">3</span>CV su misura</span>
+          <h3 class="rv" style="--d:.06s">Un CV diverso per ogni annuncio.</h3>
+          <p class="rv" style="--d:.1s">Jobra parte dal tuo profilo e adatta il CV a quella posizione: il titolo giusto, preso dalla tua esperienza, e in cima le competenze che l'annuncio chiede. E ogni candidatura parte con la sua lettera.</p>
+          <ul class="checks rv" style="--d:.14s">
+            <li><svg class="ico"><use href="#i-check"/></svg>Niente di inventato: usa solo la tua esperienza vera.</li>
+            <li><svg class="ico"><use href="#i-check"/></svg>Vedi esattamente quale documento è stato inviato a ogni azienda.</li>
+          </ul>
+          <div class="bigstat rv" style="--d:.18s"><b class="c55">+55%</b><span>di colloqui con un CV su misura<small>Fonte: Huntr, 2025 Annual Job Search Trends Report, citato su jobra.it</small></span></div>
+        </div>
+        <div class="feat-demo rv" style="--d:.1s"><div class="stage">
+          <div class="demo cvd" data-demo="cv">
+            <div class="cv-ads"><span class="l">Annuncio</span><button class="ad on" type="button">Content Manager</button><button class="ad" type="button">Marketing Specialist</button><button class="ad" type="button">Social Media Manager</button></div>
+            <div class="cv-doc">
+              <div class="cv-h"><span class="av"></span><div><b>Il tuo nome</b><span class="cv-title">Content Manager</span></div><span class="tag">Su misura</span></div>
+              <div class="cv-sec"><span class="l">In cima: quello che l'annuncio chiede</span><div class="cv-skills"></div></div>
+              <div class="cv-sec"><span class="l">Esperienza</span><div class="skl"><i style="width:92%"></i><i style="width:80%"></i><i style="width:64%"></i></div></div>
+            </div>
+            <div class="cv-meta"><span>Inviato a: <b class="cv-to">Officina Verde</b></span><span class="mono cv-file">cv_officina-verde.pdf</span></div>
+          </div>
+          <div class="demo-foot"><span>Esempio: nomi e aziende sono di fantasia.</span></div>
+        </div></div>
+      </div>
+
+      <!-- F4 -->
+      <div class="feat rev">
+        <div class="feat-tx">
+          <span class="eyebrow rv"><span class="num">4</span>Controllo ATS</span>
+          <h3 class="rv" style="--d:.06s">Il tuo CV potrebbe essere scartato prima che qualcuno lo legga.</h3>
+          <p class="rv" style="--d:.1s">Incolli un annuncio e vedi il punteggio ATS, le parole chiave che hai, quelle che mancano e cosa cambiare. Poi Jobra sistema il CV con un clic, partendo dalla tua esperienza vera.</p>
+          <div class="why rv" style="--d:.14s"><span class="eyebrow">Perché ti aiuta</span><p>Il silenzio dopo una candidatura fa pensare «non sono abbastanza». Spesso invece il CV non ha superato il filtro automatico. Sapere cosa correggere trasforma il rifiuto in un <b>problema tecnico</b>, e i problemi tecnici si risolvono.</p></div>
+        </div>
+        <div class="feat-demo rv" style="--d:.1s"><div class="stage">
+          <div class="demo ats low" data-demo="ats">
+            <div class="ats-top">
+              <div class="ring low"><svg viewBox="0 0 120 120"><circle class="bg" cx="60" cy="60" r="50"/><circle class="fg" cx="60" cy="60" r="50" style="stroke-dashoffset:144.5"/></svg><div class="ring-n"><b class="sc">54</b><small class="st">PRIMA</small></div></div>
+              <div>
+                <div class="ab"><span>Parole chiave</span><b class="v1">38</b><span class="bar"><i style="--v:.38"></i></span></div>
+                <div class="ab"><span>Formato</span><b class="v2">90</b><span class="bar"><i style="--v:.9"></i></span></div>
+                <div class="ab" style="margin-bottom:0"><span>Pertinenza</span><b class="v3">49</b><span class="bar"><i style="--v:.49"></i></span></div>
+              </div>
+            </div>
+            <div class="kw">
+              <span><svg class="ico"><use href="#i-check"/></svg>Social media</span>
+              <span><svg class="ico"><use href="#i-check"/></svg>SEO</span>
+              <span><svg class="ico"><use href="#i-check"/></svg>Google Analytics</span>
+              <span class="miss"><svg class="ico"><use href="#i-x"/></svg>Email marketing</span>
+              <span class="miss"><svg class="ico"><use href="#i-x"/></svg>A/B test</span>
+            </div>
+            <div class="tip"><b>1</b><span class="tip-tx">Aggiungi «A/B test»: l'hai già fatto per la newsletter, ma nel CV lo chiami in un altro modo.</span></div>
+            <button class="fix" type="button"><svg class="ico"><use href="#i-spark"/></svg><span>Sistema il CV con un clic</span></button>
+          </div>
+          <div class="demo-foot"><span>Controllo di esempio.</span></div>
+        </div></div>
+      </div>
+
+      <!-- F5 -->
+      <div class="feat">
+        <div class="feat-tx">
+          <span class="eyebrow rv"><span class="num">5</span>Kit candidatura</span>
+          <h3 class="rv" style="--d:.06s">Addio pagina bianca. Il kit è già pronto.</h3>
+          <p class="rv" style="--d:.1s">Per ogni offerta Jobra costruisce il kit candidatura: il CV su misura e una lettera di presentazione personalizzata, scritta partendo dal tuo CV e da quell'annuncio. Breve, specifica, senza frasi fatte.</p>
+          <ul class="checks rv" style="--d:.14s">
+            <li><svg class="ico"><use href="#i-check"/></svg>Breve e specifica: parla di quell'azienda e di quel ruolo.</li>
+            <li><svg class="ico"><use href="#i-check"/></svg>Scritta partendo dalla tua esperienza vera.</li>
+            <li><svg class="ico"><use href="#i-check"/></svg>Puoi leggerla e modificarla prima che parta.</li>
+          </ul>
+        </div>
+        <div class="feat-demo rv" style="--d:.1s"><div class="stage">
+          <div class="demo kit" data-demo="kit">
+            <div class="kit-bar"><i></i><i></i><i></i><span class="mono">Kit candidatura · Officina Verde</span></div>
+            <div class="kit-tabs"><span class="on">Lettera</span><span>CV su misura</span></div>
+            <p class="typed"></p>
+            <ul class="kit-check"><li><svg class="ico"><use href="#i-check"/></svg>CV su misura</li><li><svg class="ico"><use href="#i-check"/></svg>Lettera personalizzata</li><li><svg class="ico"><use href="#i-check"/></svg>Controllo ATS 88</li><li><svg class="ico"><use href="#i-check"/></svg>Pronto da rileggere</li></ul>
+          </div>
+          <div class="demo-foot"><span>Esempio: nomi e aziende sono di fantasia.</span></div>
+        </div></div>
+      </div>
+
+      <!-- F6 -->
+      <div class="feat rev">
+        <div class="feat-tx">
+          <span class="eyebrow rv"><span class="num">6</span>Simulatore di colloquio</span>
+          <h3 class="rv" style="--d:.06s">Arriva al colloquio già allenato.</h3>
+          <p class="rv" style="--d:.1s">Ti alleni con le domande del tuo ruolo e ricevi un voto e un commento su ogni risposta. Domanda, risposta, valutazione.</p>
+          <div class="why rv" style="--d:.18s"><span class="eyebrow">Perché ti aiuta</span><p>L'ansia cala quando una situazione diventa familiare. Allenarti sulle domande vere, con un feedback, fa sì che il primo colloquio <b>non sia il primo in assoluto</b>.</p></div>
+        </div>
+        <div class="feat-demo rv" style="--d:.1s"><div class="stage">
+          <div class="demo chat" data-demo="chat">
+            <div class="chat-h"><span class="mono">Simulatore · Marketing Specialist</span><span class="rec"><i></i>In corso</span></div>
+            <div class="chat-b">
+              <div class="msg rec"><span class="who">Recruiter</span><div class="bub"><span class="dots"><i></i><i></i><i></i></span><span class="tx">Raccontami una campagna che non è andata come previsto. Cosa hai fatto?</span></div></div>
+              <div class="msg you"><span class="who">Tu</span><div class="bub"><span class="dots"><i></i><i></i><i></i></span><span class="tx">Una newsletter aveva poche aperture, così ho provato due oggetti diversi…</span></div></div>
+              <div class="msg score"><div class="bub"><span class="v">7/10</span><span class="dots"><i></i><i></i><i></i></span><span class="tx">Buona struttura. Chiudi con il risultato in numeri: di quanto sono salite le aperture?</span></div></div>
+              <div class="msg you"><span class="who">Tu, secondo tentativo</span><div class="bub"><span class="dots"><i></i><i></i><i></i></span><span class="tx">…e in un mese le aperture sono passate dal 18% al 27%.</span></div></div>
+              <div class="msg score good"><div class="bub"><span class="v">9/10</span><span class="dots"><i></i><i></i><i></i></span><span class="tx">Ora è concreta e misurabile. Così la ricordano.</span></div></div>
+            </div>
+          </div>
+          <div class="demo-foot"><span>Esempio di allenamento.</span></div>
+        </div></div>
+      </div>
+    </div>
+    <div class="hd center bento-hd">
+      <span class="eyebrow rv">E non finisce qui</span>
+      <h2 class="rv" style="--d:.06s">Dalla prima ricerca al colloquio, è tutto <span class="sel">qui<i></i><i></i></span>.</h2>
+    </div>
+    <div class="bento">
+      <div class="tile rv" data-demo="rules">
+        <div class="tl-ui"><div class="rules">
+          <div class="rule" style="--i:0"><span>Ruoli</span><b>Marketing · Content</b><i class="tg"></i></div>
+          <div class="rule" style="--i:1"><span>Zona</span><b>Milano o da remoto</b><i class="tg"></i></div>
+          <div class="rule" style="--i:2"><span>Stipendio minimo</span><b>32.000 € RAL</b><i class="tg"></i></div>
+          <div class="rule" style="--i:3"><span>Limite giornaliero</span><b>10 candidature</b><i class="tg"></i></div>
+          <div class="rule" style="--i:4"><span>Orari di invio</span><b>7:00 – 21:00</b><i class="tg"></i></div>
+          <div class="rules-f"><span>❚❚ Metti in pausa</span><span>Cambia modo</span></div>
+        </div></div>
+        <h4>Regole dell'agente</h4>
+        <p>Decidi tu dove si muove Jobra: ruoli, zone, stipendio minimo e limite giornaliero. Lo metti in pausa o cambi modalità quando vuoi.</p>
+      </div>
+      <div class="tile rv" style="--d:.08s" data-demo="stealth">
+        <div class="tl-ui"><span class="stl-badge"><i></i>Stealth attiva</span><ul class="stl">
+          <li><span class="lg" style="background:#245ce8">S</span><div><b>Studio Nord</b><small>Marketing Specialist</small></div><span class="sc2">92</span></li>
+          <li class="me-co"><span class="lg" style="background:#64748b">A</span><div><b>La tua azienda attuale</b><small>Non compare mai</small></div><span class="hid">Nascosta</span></li>
+          <li><span class="lg" style="background:#9b4fd0">C</span><div><b>Casa Lumi</b><small>Content Manager</small></div><span class="sc2">88</span></li>
+        </ul></div>
+        <h4>Modalità stealth</h4>
+        <p>La tua azienda attuale non compare mai nelle tue ricerche né nelle tue candidature.</p>
+      </div>
+      <div class="tile rv" data-demo="board">
+        <div class="tl-ui"><div class="board">
+          <div class="bd-n"><div><b class="c1">18</b><span>Inviate</span></div><div><b class="c2">4</b><span>Risposte</span></div><div><b class="c3">1</b><span>Colloqui</span></div></div>
+          <div class="bd-mail"><span class="fi g"><svg class="ico"><use href="#i-mail"/></svg></span><div><b>Studio Nord ha risposto</b><small>Richiesta di colloquio · nella tua email</small></div></div>
+        </div></div>
+        <h4>Ogni risposta, in un posto solo</h4>
+        <p>Le risposte arrivano nella tua email e le ritrovi in bacheca, accanto a quello che hai inviato.</p>
+      </div>
+      <div class="tile rv" style="--d:.08s" data-demo="sheet">
+        <div class="tl-ui"><div class="sh">
+          <div class="sh-h" style="--i:0"><b>Colloquio · Studio Nord</b><span>giovedì, ore 14</span></div>
+          <span class="sh-l" style="--i:1">Probabilmente ti chiederanno</span>
+          <p class="sh-q" style="--i:2">Raccontami una campagna che non è andata come previsto.</p>
+          <span class="sh-l" style="--i:3">Chiedi tu</span>
+          <p class="sh-q" style="--i:4">Come misurerete il successo nei primi 90 giorni?</p>
+          <div class="sh-ok" style="--i:5">✓ Ringraziamento pronto per domani</div>
+        </div></div>
+        <h4>La scheda per ogni colloquio</h4>
+        <p>Hai ottenuto il colloquio? Jobra ti prepara: cosa gli hai inviato, le domande probabili, cosa chiedere tu e il ringraziamento per il giorno dopo.</p>
+      </div>
+      <div class="tile wide rv">
+        <h4>E ancora</h4>
+        <div class="incl"><span>Ottimizzazione LinkedIn</span><span>Test logici</span><span>Smart timing</span><span>Report del lunedì</span><span>Kit candidatura</span><span>Formato CV leggibile dagli ATS</span></div>
+        <p class="fine">Alcune funzioni dipendono dal piano. Schermate di esempio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA INTERMEDIA -->
+<div class="mid">
+  <div class="wrap">
+    <div class="mid-box rv">
+      <h3>Tutto questo, con un'impostazione da 5 minuti.</h3>
+      <p>Parti approvando tu ogni candidatura. Il resto lo decidi dopo.</p>
+      <a class="btn btn-lg go" href="https://jobra.it/?aff=DANZ">Inizia su jobra.it <span class="arr">→</span></a>
+    </div>
+  </div>
+</div>
+
+<!-- SETTIMANA -->
+<section class="dark grid-bg" id="settimana">
+  <div class="wrap">
+    <div class="hd center">
+      <span class="eyebrow rv">Immagina la prossima settimana</span>
+      <h2 class="rv" style="--d:.06s">Cinque giorni.<br>Le serate restano <span class="sel">tue<i></i><i></i></span>.</h2>
+    </div>
+    <div class="week" data-demo="week">
+      <div class="wk-line"><i></i></div>
+      <div class="day" style="--i:0"><span class="d">Lun</span><div class="day-c"><span class="w">21:30 · 5 minuti</span><p>Carichi il CV che hai già, scegli ruolo, zona e stipendio minimo. Per iniziare, approvi tu.</p></div></div>
+      <div class="day" style="--i:1"><span class="d">Mar</span><div class="day-c"><span class="w">7:30 · caffè</span><p>Trovi le prime candidature pronte. Mandi quelle che ti convincono con uno swipe.</p></div></div>
+      <div class="day" style="--i:2"><span class="d">Mer</span><div class="day-c"><span class="w">Pausa pranzo</span><p>Il controllo ATS ti segnala due parole chiave mancanti. Le sistemi in un minuto.</p></div></div>
+      <div class="day star" style="--i:3"><span class="d">Gio</span><div class="day-c"><span class="w">10:41 · nella tua email</span><p>Un'azienda ti risponde: vuole fissare un colloquio.</p></div></div>
+      <div class="day" style="--i:4"><span class="d">Ven</span><div class="day-c"><span class="w">Sera</span><p>Quindici minuti di colloquio simulato. Poi chiudi il portatile ed esci.</p></div></div>
+    </div>
+    <p class="fine">Esempio: i tempi dipendono dal tuo settore, dalla tua zona e dalle offerte disponibili.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="hd center">
+      <span class="eyebrow rv">I dubbi che hai adesso</span>
+      <h2 class="rv" style="--d:.06s">Domande giuste.<br>Risposte <span class="sel">brevi<i></i><i></i></span>.</h2>
+    </div>
+    <div class="faq">
+      <details class="rv" open><summary>Si capirà che l'ha scritto un'IA?<span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="a">Jobra scrive partendo dal tuo CV vero e dall'annuncio, senza modelli e senza inventare nulla. CV e lettere puoi leggerli e modificarli.</p></details>
+      <details class="rv"><summary>Si candiderà a offerte che non voglio?<span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="a">Scegli tu ruoli, zone, stipendio minimo e limite giornaliero. E se vuoi approvi tu: parte solo quello che sposti a destra.</p></details>
+      <details class="rv"><summary>La mia azienda attuale può scoprirlo?<span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="a">Con la modalità stealth la tua azienda non compare mai nelle ricerche né nelle candidature.</p></details>
+      <details class="rv"><summary>Dove arrivano le risposte?<span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="a">Nella tua email. Le ritrovi anche nella bacheca, accanto a quello che hai inviato.</p></details>
+      <details class="rv"><summary>E se non fa per me?<span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="a">Disdici quando vuoi.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINALE -->
+<section class="dark final grid-bg" id="inizia">
+  <div class="wrap">
+    <div class="hd center">
+      <span class="eyebrow pill rv"><span class="dot"></span>Il tuo prossimo passo</span>
+      <h2 class="rv" style="--d:.06s">Stasera, 5 minuti.<br>Domani mattina, le prime <span class="sel">candidature<i></i><i></i></span>.</h2>
+    </div>
+    <div class="final-grid">
+      <div class="panel rv">
+        <span class="eyebrow">In sintesi, cosa fa Jobra per te</span>
+        <ul class="recap">
+          <li><svg class="ico"><use href="#i-check"/></svg>Si candida ogni giorno alle offerte adatte a te, o aspetta il tuo swipe</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Adatta CV e lettera a ogni annuncio</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Controlla il tuo CV con il controllo ATS</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Trova anche i lavori che nessun altro vede</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Ti allena con colloqui simulati sul tuo ruolo</li>
+        </ul>
+      </div>
+      <div class="panel rv" style="--d:.08s">
+        <span class="eyebrow">Decidi adesso quando lo fai</span>
+        <label class="intent-row" for="when">Stasera alle <input type="time" id="when" value="21:30"></label>
+        <div class="intent-btns">
+          <button class="sbtn" type="button" id="ics"><svg class="ico"><use href="#i-cal"/></svg>Aggiungi al calendario</button>
+          <a class="sbtn" id="gcal" href="#" target="_blank" rel="noopener">Google Calendar</a>
+        </div>
+        <p class="intent-ok" id="intentOk" aria-live="polite"></p>
+        <p class="small">Chi decide in anticipo quando farà una cosa ha molte più probabilità di farla davvero: gli psicologi le chiamano <b>intenzioni di implementazione</b>.</p>
+      </div>
+      <div class="go-box rv" id="finalCta">
+        <ol class="go-steps">
+          <li><span class="k">1</span>Vai su jobra.it</li>
+          <li><span class="k">2</span>Carica il CV e scegli ruolo, zona e stipendio</li>
+          <li><span class="k">3</span>Domattina approvi le prime candidature</li>
+        </ol>
+        <a class="btn btn-lg btn-glow go" href="https://jobra.it/?aff=DANZ">Inizia su jobra.it <span class="arr">→</span></a>
+        <div class="micro" style="justify-content:center">
+          <span><svg class="ico"><use href="#i-check"/></svg>Pronto in 5 minuti</span>
+          <span><svg class="ico"><use href="#i-check"/></svg>Disdici quando vuoi</span>
+          <span><svg class="ico"><use href="#i-check"/></svg>Il tuo nome su ogni candidatura</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="bicon"><svg class="ico"><use href="#i-check"/></svg></span>Guida a Jobra</a>
+    <p class="dm">Hai una domanda? Scrivimi in DM: rispondo io.</p>
+    <p><a class="foot-pdf" href="Segreti_dei_recruiter_colloquio.pdf" download target="_blank" rel="noopener"><svg class="ico"><use href="#i-dl"/></svg>Scarica il PDF gratuito sui segreti dei recruiter</a></p>
+    <p class="fine">Numeri pubblicati su jobra.it. Le schermate sono esempi: nomi, aziende e orari sono di fantasia. Dato +55%: Huntr, 2025 Annual Job Search Trends Report, citato su jobra.it.</p>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky"><a class="btn go" href="https://jobra.it/?aff=DANZ">Inizia su jobra.it <span class="arr">→</span></a></div>
+
+<script>
+/* ===== Link di destinazione: cambia qui (es. link affiliato o con UTM) ===== */
+const JOBRA_URL = 'https://jobra.it/?aff=DANZ';
+
+(function(){
+  document.querySelectorAll('a.go').forEach(a => { a.href = JOBRA_URL; a.rel = 'noopener'; });
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const ease = t => 1 - Math.pow(1 - t, 3);
+  function tween(a, b, ms, cb){ return new Promise(res => { const t0 = performance.now(); (function f(now){ const p = Math.min(1, (now - t0) / ms); cb(a + (b - a) * ease(p)); p < 1 ? requestAnimationFrame(f) : res(); })(t0); }); }
+  function runner(){ let alive = true; const ts = new Set(); return { get alive(){ return alive; }, wait(ms){ return new Promise(res => { const t = setTimeout(() => { ts.delete(t); res(); }, ms); ts.add(t); }); }, stop(){ alive = false; ts.forEach(clearTimeout); ts.clear(); } }; }
+  function loop(el, fn){ const r = el._r = runner(); (async () => { while (r.alive){ await fn(r); await r.wait(30); } })(); }
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+  const it = n => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+
+  /* ---- reveal ---- */
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    e.target.classList.add('in'); io.unobserve(e.target);
+    $$('[data-count]', e.target).forEach(b => { if (b._done || reduce) return; b._done = 1; const n = +b.dataset.count; tween(0, n, 1600, v => b.textContent = it(v) + (b.dataset.suf || '')); });
+  }), { threshold: .12, rootMargin: '0px 0px -6% 0px' });
+  $$('.rv').forEach(el => io.observe(el));
+
+  /* ---- nav + sticky ---- */
+  const nav = $('#nav'), sticky = $('#sticky');
+  let heroGone = false, finalIn = false;
+  const upd = () => sticky.classList.toggle('show', heroGone && !finalIn);
+  addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 40), { passive: true });
+  new IntersectionObserver(([e]) => { heroGone = !e.isIntersecting && e.boundingClientRect.top < 0; upd(); }).observe($('#heroCta'));
+  new IntersectionObserver(([e]) => { finalIn = e.isIntersecting; upd(); }, { threshold: .1 }).observe($('#finalCta'));
+
+  /* ---- demos ---- */
+  const D = {};
+
+  D.hero = { start(el){
+    const night = $('.ph-night', el), clk = $('.ph-clock', el), tm = $('.ph-time', el), items = $$('.feed li', el), ban = $('.ph-banner', el), sum = $('.ph-sum', el);
+    loop(el, async r => {
+      night.classList.remove('off'); items.forEach(i => i.classList.remove('show', 'win')); ban.classList.remove('show'); sum.classList.remove('show');
+      for (const h of [23, 0, 1, 2, 3, 4, 5, 6, 7]){ const s = String(h).padStart(2, '0') + ':00'; clk.textContent = s; tm.textContent = h + ':00'; await r.wait(h === 23 ? 700 : 190); }
+      await r.wait(500); night.classList.add('off'); await r.wait(500);
+      for (const li of items){ li.classList.add('show'); tm.textContent = li.dataset.t; await r.wait(780); }
+      items[items.length - 1].classList.add('win'); ban.classList.add('show'); await r.wait(900);
+      sum.classList.add('show'); await r.wait(2600); ban.classList.remove('show'); await r.wait(2400);
+    });
+  }, still(el){ $('.ph-night', el).classList.add('off'); $$('.feed li', el).forEach(i => i.classList.add('show')); $('.ph-sum', el).classList.add('show'); } };
+
+  D.p1 = { start(el){
+    const n = $('.p1n', el), rows = $$('.m-row', el);
+    loop(el, async r => {
+      rows.forEach(x => x.classList.remove('show')); n.textContent = '0'; await r.wait(300);
+      rows.forEach((x, i) => setTimeout(() => x.classList.add('show'), i * 380));
+      await tween(0, 47, 2000, v => n.textContent = Math.round(v)); await r.wait(2800);
+    });
+  }, still(el){ $('.p1n', el).textContent = '47'; $$('.m-row', el).forEach(x => x.classList.add('show')); } };
+
+  D.p2 = { start(el){
+    const mini = $('.mini', el), w = $('.r-when', el), em = $('.r-empty', el);
+    const T = ['13:05 · pausa pranzo', '18:32 · al semaforo', '23:47 · prima di dormire'];
+    let k = 0;
+    loop(el, async r => {
+      w.style.opacity = 0; await r.wait(250); w.textContent = T[k++ % 3]; w.style.opacity = 1;
+      em.classList.remove('show'); mini.classList.add('loading'); await r.wait(1300);
+      mini.classList.remove('loading'); em.classList.add('show'); await r.wait(1500);
+    });
+  }, still(el){ $('.r-empty', el).classList.add('show'); } };
+
+  D.p3 = { start(el){
+    const to = $('.to', el), co = $('.co', el), err = $('.lt-err', el);
+    const seq = [['Officina Verde', 'Officina Verde'], ['Studio Nord', 'Studio Nord'], ['Casa Lumi', null]];
+    loop(el, async r => {
+      for (const [dest, typed] of seq){
+        to.textContent = dest; err.classList.remove('show'); co.classList.remove('err'); await r.wait(900);
+        if (typed){
+          while (co.textContent.length){ co.textContent = co.textContent.slice(0, -1); await r.wait(35); }
+          await r.wait(200);
+          for (const ch of typed){ co.textContent += ch; await r.wait(55); }
+          await r.wait(1100);
+        } else { await r.wait(500); co.classList.add('err'); err.classList.add('show'); await r.wait(2600); }
+      }
+    });
+  }, still(el){ $('.to', el).textContent = 'Casa Lumi'; $('.co', el).textContent = 'Studio Nord'; $('.co', el).classList.add('err'); $('.lt-err', el).classList.add('show'); } };
+
+  D.p4 = { start(el){
+    const s1 = $('.s1', el), sp = $('.spark', el);
+    loop(el, async r => {
+      sp.classList.remove('go'); s1.textContent = '0'; await r.wait(200); sp.classList.add('go');
+      await tween(0, 38, 2400, v => s1.textContent = Math.round(v)); await r.wait(3000);
+    });
+  }, still(el){ $('.s1', el).textContent = '38'; $('.spark', el).classList.add('go'); } };
+
+  D.calc = { start(el){ const t = $('.tot', el); tween(0, 60, 1800, v => t.textContent = Math.round(v)); } };
+  D.cal = { start(){} };
+  D.week = { start(){} };
+
+  D.pipe = { start(el){
+    const nodes = $$('.node', el), fill = $('.pipe-fill', el);
+    loop(el, async r => {
+      nodes.forEach(n => n.classList.remove('lit')); fill.style.setProperty('--p', 0); await r.wait(600);
+      for (let i = 0; i < nodes.length; i++){
+        fill.style.setProperty('--p', i / (nodes.length - 1)); await r.wait(i ? 750 : 100);
+        nodes[i].classList.add('lit'); await r.wait(850);
+      }
+      await r.wait(3000);
+    });
+  }, still(el){ $$('.node', el).forEach(n => n.classList.add('lit')); $('.pipe-fill', el).style.setProperty('--p', 1); } };
+
+  /* ---- lavori che nessuno trova ---- */
+  D.radar = { start(el){
+    const pins = $$('.pin', el), items = $$('.rd-list li', el), st = $('.rd-list li:nth-child(2) .rs', el);
+    loop(el, async r => {
+      pins.forEach(p => p.classList.remove('show')); items.forEach(i => i.classList.remove('show')); st.textContent = 'Trovata da Jobra'; st.classList.remove('sent');
+      await r.wait(1000);
+      for (let i = 0; i < pins.length; i++){ pins[i].classList.add('show'); await r.wait(300); items[i].classList.add('show'); await r.wait(1000); }
+      await r.wait(500); st.textContent = 'Inviata alle 7:02'; st.classList.add('sent'); await r.wait(3800);
+    });
+  }, still(el){ $$('.pin, .rd-list li', el).forEach(x => x.classList.add('show')); } };
+
+  /* ---- F6: simulatore ---- */
+  D.chat = { start(el){
+    const msgs = $$('.msg', el);
+    loop(el, async r => {
+      msgs.forEach(m => m.classList.remove('show', 'typing')); await r.wait(500);
+      for (const m of msgs){ m.classList.add('show', 'typing'); await r.wait(m.classList.contains('you') ? 1100 : 900); m.classList.remove('typing'); await r.wait(1300); }
+      await r.wait(3800);
+    });
+  }, still(el){ $$('.msg', el).forEach(m => m.classList.add('show')); } };
+
+  /* ---- riquadri finali ---- */
+  D.rules = { start(){} }; D.stealth = { start(){} }; D.sheet = { start(){} };
+  D.board = { start(el){
+    const c = ['.c1', '.c2', '.c3'].map(x => $(x, el)), m = $('.bd-mail', el); m.classList.remove('show');
+    tween(0, 1, 1800, p => { c[0].textContent = Math.round(18 * p); c[1].textContent = Math.round(4 * p); c[2].textContent = Math.round(p); }).then(() => { if (el._on) m.classList.add('show'); });
+  }, still(el){ $('.bd-mail', el).classList.add('show'); } };
+
+  /* ---- F2: CV su misura ---- */
+  const CVS = [
+    { t: 'Content Manager', co: 'Officina Verde', f: 'cv_officina-verde.pdf', sk: ['Piano editoriale', 'Copywriting', 'SEO', 'Newsletter', 'Community'] },
+    { t: 'Marketing Specialist', co: 'Studio Nord', f: 'cv_studio-nord.pdf', sk: ['Google Analytics', 'A/B test', 'Email marketing', 'SEO', 'Report'] },
+    { t: 'Social Media Manager', co: 'Casa Lumi', f: 'cv_casa-lumi.pdf', sk: ['Instagram', 'Community', 'Piano editoriale', 'Short video', 'Copywriting'] }
+  ];
+  function cvShow(el, i){
+    el._i = i; const c = CVS[i];
+    $$('.ad', el).forEach((a, k) => a.classList.toggle('on', k === i));
+    const t = $('.cv-title', el); t.classList.add('out');
+    setTimeout(() => { t.textContent = c.t; t.classList.remove('out'); }, 230);
+    $('.cv-skills', el).innerHTML = c.sk.map((s, k) => `<span class="chip${k < 3 ? ' hot' : ''}" style="--i:${k}">${s}</span>`).join('');
+    $('.cv-to', el).textContent = c.co; $('.cv-file', el).textContent = c.f;
+  }
+  const cvEl = $('[data-demo=cv]');
+  if (cvEl){
+    cvShow(cvEl, 0);
+    $$('.ad', cvEl).forEach((a, k) => a.addEventListener('click', () => { cvShow(cvEl, k); if (cvEl._on){ D.cv.stop(cvEl); D.cv.start(cvEl); } }));
+  }
+  D.cv = { start(el){ clearInterval(el._t); el._t = setInterval(() => cvShow(el, ((el._i || 0) + 1) % 3), 3400); }, stop(el){ clearInterval(el._t); }, still(){} };
+
+  /* ---- F3: controllo ATS ---- */
+  const atsEl = $('[data-demo=ats]');
+  let atsTok = 0;
+  const C = 2 * Math.PI * 50;
+  function atsSet(el, sc, v){
+    $('.sc', el).textContent = Math.round(sc);
+    $('.ring .fg', el).style.strokeDashoffset = C * (1 - sc / 100);
+    ['.v1', '.v2', '.v3'].forEach((s, k) => { $(s, el).textContent = Math.round(v[k]); $$('.ab .bar i', el)[k].style.setProperty('--v', v[k] / 100); });
+  }
+  function atsBefore(el){
+    el.classList.add('low'); $('.ring', el).classList.add('low'); $('.st', el).textContent = 'PRIMA';
+    atsSet(el, 54, [38, 90, 49]);
+    $$('.kw span', el).slice(3).forEach(s => { s.classList.add('miss'); $('use', s).setAttribute('href', '#i-x'); });
+    $('.tip-tx', el).textContent = "Aggiungi «A/B test»: l'hai già fatto per la newsletter, ma nel CV lo chiami in un altro modo.";
+    const b = $('.fix', el); b.classList.remove('busy'); $('span', b).textContent = 'Sistema il CV con un clic'; el._done = false;
+  }
+  async function atsFix(el, tok){
+    const b = $('.fix', el); b.classList.add('busy'); $('span', b).textContent = 'Sistemo il CV…';
+    await new Promise(r => setTimeout(r, 1000)); if (tok !== atsTok) return;
+    el.classList.remove('low'); $('.ring', el).classList.remove('low'); $('.st', el).textContent = 'DOPO';
+    tween(0, 1, 1300, p => atsSet(el, 54 + 34 * p, [38 + 46 * p, 90 + 6 * p, 49 + 32 * p]));
+    for (const s of $$('.kw span', el).slice(3)){ await new Promise(r => setTimeout(r, 380)); if (tok !== atsTok) return; s.classList.remove('miss'); s.classList.add('flip'); $('use', s).setAttribute('href', '#i-check'); setTimeout(() => s.classList.remove('flip'), 500); }
+    $('.tip-tx', el).textContent = 'Fatto: «A/B test» e «Email marketing» ora sono nel CV, con le parole dell\'annuncio.';
+    b.classList.remove('busy'); $('span', b).textContent = 'Rifai il controllo'; el._done = true;
+  }
+  async function atsPlay(el, delay){
+    const tok = ++atsTok; atsBefore(el);
+    await new Promise(r => setTimeout(r, delay)); if (tok !== atsTok) return;
+    atsFix(el, tok);
+  }
+  if (atsEl) $('.fix', atsEl).addEventListener('click', () => { if (atsEl._done) atsPlay(atsEl, 700); else { const tok = ++atsTok; atsFix(atsEl, tok); } });
+  D.ats = { start(el){ atsPlay(el, 1500); }, stop(){ atsTok++; }, still(el){ atsSet(el, 88, [84, 96, 81]); el.classList.remove('low'); $('.ring', el).classList.remove('low'); $('.st', el).textContent = 'DOPO'; } };
+
+  /* ---- F4: kit, lettera che si scrive ---- */
+  const LETTER = [['Gentile team di '], ['Officina Verde', 1], [',\n'], ['ho letto che cercate un '], ['Content Manager', 1], [' per far crescere la vostra community. Negli ultimi due anni ho curato la newsletter di un e-commerce con 8.000 iscritti e, testando gli oggetti delle email, ho portato le aperture '], ['dal 18% al 27%', 1], ['.\n'], ['Vorrei fare lo stesso con i vostri contenuti. Posso raccontarvi come in un colloquio?']];
+  function letterFull(box){ box.innerHTML = LETTER.map(([t, h]) => h ? `<mark>${t}</mark>` : t.replace(/\n/g, '<br>')).join(''); }
+  D.kit = { start(el){
+    const box = $('.typed', el), checks = $$('.kit-check li', el);
+    loop(el, async r => {
+      box.innerHTML = ''; checks.forEach(c => c.classList.remove('ok')); await r.wait(500);
+      for (const [t, h] of LETTER){
+        let node = null;
+        for (const ch of t){
+          if (ch === '\n'){ box.appendChild(document.createElement('br')); node = null; continue; }
+          if (!node){ node = document.createElement(h ? 'mark' : 'span'); box.appendChild(node); }
+          node.textContent += ch; await r.wait(ch === ' ' ? 8 : 15);
+        }
+      }
+      for (const c of checks){ await r.wait(320); c.classList.add('ok'); }
+      await r.wait(3800);
+    });
+  }, still(el){ letterFull($('.typed', el)); $$('.kit-check li', el).forEach(c => c.classList.add('ok')); } };
+
+
+  /* ---- F1: swipe ---- */
+  (function(){
+    const el = $('[data-demo=swipe]'); if (!el) return;
+    const deck = $('.sw-deck', el), cnt = $('.sw-count', el), st = $('.sw-st', el), toast = $('.sw-toast', el), modeLbl = $('.sw-mode', el);
+    const modeBtns = $$('.mode');
+    const JOBS = [
+      { t: 'Content Manager', c: 'Officina Verde', l: 'Milano', m: 89, a: 88, col: '#245ce8' },
+      { t: 'Marketing Specialist', c: 'Studio Nord', l: 'Da remoto', m: 92, a: 91, col: '#9b4fd0' },
+      { t: 'Social Media Manager', c: 'Casa Lumi', l: 'Torino', m: 86, a: 85, col: '#0eb67c' },
+      { t: 'Brand Coordinator', c: 'Ferro & Co', l: 'Bologna', m: 84, a: 87, col: '#f59e0b' }
+    ];
+    const LIMIT = 10;
+    let k = 0, sent = 0, mode = 'approve', busy = false, idle = null, autoT = null, mins = 7 * 60, drag = null;
+    const fmt = m => Math.floor(m / 60) + ':' + String(m % 60).padStart(2, '0');
+    const chk = '<svg class="ico"><use href="#i-check"/></svg>';
+    function card(j){ const d = document.createElement('div'); d.className = 'job'; d.innerHTML = `<div class="job-h"><span class="lg" style="background:${j.col}">${j.c[0]}</span><div><b>${j.t}</b><small>${j.c.replace('&', '&amp;')} · ${j.l}</small></div><span class="match"><b>${j.m}</b><small>match</small></span></div><ul><li>${chk}CV adattato all'annuncio</li><li>${chk}Lettera pronta</li><li>${chk}Controllo ATS ${j.a}</li></ul><span class="stamp s-send">INVIA</span><span class="stamp s-skip">SALTA</span>`; return d; }
+    function fill(){ while (deck.children.length < 3) deck.appendChild(card(JOBS[k++ % JOBS.length])); [...deck.children].forEach((c, i) => c.dataset.pos = i); }
+    function count(){ cnt.textContent = mode === 'auto' ? `Inviate oggi: ${sent}/${LIMIT}` : `Inviate oggi: ${sent}`; }
+    function showToast(t){ toast.textContent = t; toast.classList.remove('show'); void toast.offsetWidth; toast.classList.add('show'); }
+    function act(dir){
+      if (busy) return; const top = deck.firstElementChild; if (!top) return; busy = true;
+      top.classList.remove('hint'); top.style.transform = '';
+      $(dir > 0 ? '.s-send' : '.s-skip', top).style.opacity = 1;
+      top.classList.add(dir > 0 ? 'fly-r' : 'fly-l');
+      if (dir > 0){ sent++; count(); showToast(mode === 'auto' ? `Inviata alle ${fmt(mins)} ✓` : 'Inviata a tuo nome ✓'); }
+      setTimeout(() => { top.remove(); fill(); busy = false; }, 430);
+    }
+    function scheduleIdle(){
+      clearTimeout(idle); if (!el._on || mode !== 'approve' || reduce) return;
+      idle = setTimeout(() => { const top = deck.firstElementChild; if (!top || busy || drag){ scheduleIdle(); return; } top.classList.add('hint'); setTimeout(() => { act(1); scheduleIdle(); }, 850); }, 3600);
+    }
+    function autoStep(){
+      clearTimeout(autoT); if (!el._on || mode !== 'auto') return;
+      if (sent >= LIMIT){ st.textContent = 'Limite che hai scelto raggiunto. Riprende domani alle 7.'; autoT = setTimeout(() => { sent = 0; mins = 7 * 60; count(); st.textContent = 'Invio automatico dalle 7 alle 21'; autoStep(); }, 3200); return; }
+      mins = Math.min(21 * 60, mins + 45 + Math.round(Math.random() * 40)); act(1);
+      autoT = setTimeout(autoStep, 1500);
+    }
+    function setMode(m){
+      mode = m; el.dataset.mode = m; sent = 0; mins = 7 * 60; count();
+      modeBtns.forEach(b => { const on = b.dataset.mode === m; b.classList.toggle('on', on); b.setAttribute('aria-pressed', on); });
+      modeLbl.textContent = m === 'auto' ? 'Invio automatico attivo' : 'Approvi tu';
+      st.textContent = m === 'auto' ? 'Invio automatico dalle 7 alle 21' : 'Trascina a destra per inviare';
+      clearTimeout(idle); clearTimeout(autoT);
+      if (el._on){ m === 'auto' ? (autoT = setTimeout(autoStep, 600)) : scheduleIdle(); }
+    }
+    modeBtns.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+    $('.b-send', el).addEventListener('click', () => { act(1); scheduleIdle(); });
+    $('.b-skip', el).addEventListener('click', () => { act(-1); scheduleIdle(); });
+    deck.addEventListener('pointerdown', e => {
+      const top = deck.firstElementChild; if (!top || busy || mode !== 'approve') return;
+      drag = { x: e.clientX, y: e.clientY, el: top, dx: 0, on: false, id: e.pointerId };
+    });
+    deck.addEventListener('pointermove', e => {
+      if (!drag) return; const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+      if (!drag.on){ if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return; if (Math.abs(dy) > Math.abs(dx)){ drag = null; return; } drag.on = true; drag.el.style.transition = 'none'; drag.el.classList.remove('hint'); try { drag.el.setPointerCapture(drag.id); } catch (_){} clearTimeout(idle); }
+      drag.dx = dx; drag.el.style.transform = `translateX(${dx}px) rotate(${dx / 18}deg)`;
+      $('.s-send', drag.el).style.opacity = Math.max(0, Math.min(1, dx / 90));
+      $('.s-skip', drag.el).style.opacity = Math.max(0, Math.min(1, -dx / 90));
+    });
+    const end = () => {
+      if (!drag) return; const d = drag; drag = null; if (!d.on) return;
+      d.el.style.transition = '';
+      if (Math.abs(d.dx) > 80) act(d.dx > 0 ? 1 : -1);
+      else { d.el.style.transform = ''; $$('.stamp', d.el).forEach(s => s.style.opacity = ''); }
+      scheduleIdle();
+    };
+    deck.addEventListener('pointerup', end); deck.addEventListener('pointercancel', end);
+    fill(); count();
+    D.swipe = { start(){ setMode(mode); }, stop(){ clearTimeout(idle); clearTimeout(autoT); }, still(){} };
+  })();
+
+  /* ---- osservatore delle demo: partono solo quando sono visibili ---- */
+  const live = new IntersectionObserver(es => es.forEach(e => {
+    const el = e.target, d = D[el.dataset.demo]; if (!d) return;
+    if (e.isIntersecting && !el._on){
+      el._on = true; el.classList.add('on');
+      if (reduce && d.still) d.still(el); else d.start(el);
+    } else if (!e.isIntersecting && el._on){
+      el._on = false; el.classList.remove('on');
+      if (el._r) el._r.stop(); if (d.stop) d.stop(el);
+    }
+  }), { threshold: .25 });
+  $$('[data-demo]').forEach(el => live.observe(el));
+
+  /* ---- spunte «Sono io» ---- */
+  const res = $('#painRes');
+  $$('.me').forEach(b => b.addEventListener('click', () => {
+    const on = b.getAttribute('aria-pressed') !== 'true'; b.setAttribute('aria-pressed', on); b.closest('.pain').classList.toggle('checked', on);
+    const n = $$('.me[aria-pressed=true]').length; res.classList.toggle('has', n > 0);
+    $('.pc', res).textContent = n === 1 ? 'Ne hai spuntata una.' : n === 4 ? 'Le hai spuntate tutte e quattro.' : `Ne hai spuntate ${n}.`;
+  }));
+
+  /* ---- promemoria: intenzione di implementazione ---- */
+  const when = $('#when'), ok = $('#intentOk'), gcal = $('#gcal');
+  const TITLE = '5 minuti per la ricerca di lavoro (Jobra)';
+  const DESC = 'Vai su ' + JOBRA_URL + ', carica il CV e scegli ruolo, zona e stipendio. Domattina approvi le prime candidature.';
+  const p2 = n => String(n).padStart(2, '0');
+  const stamp = d => d.getFullYear() + p2(d.getMonth() + 1) + p2(d.getDate()) + 'T' + p2(d.getHours()) + p2(d.getMinutes()) + '00';
+  function slot(){
+    const [h, m] = (when.value || '21:30').split(':').map(Number);
+    const s = new Date(); s.setHours(h, m, 0, 0); let tomorrow = false;
+    if (s < new Date()){ s.setDate(s.getDate() + 1); tomorrow = true; }
+    return { s, e: new Date(s.getTime() + 15 * 60000), tomorrow, label: p2(h) + ':' + p2(m) };
+  }
+  function syncG(){ const { s, e } = slot(); gcal.href = 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + encodeURIComponent(TITLE) + '&dates=' + stamp(s) + '/' + stamp(e) + '&details=' + encodeURIComponent(DESC); }
+  when.addEventListener('input', syncG); syncG();
+  gcal.addEventListener('click', () => { const { tomorrow, label } = slot(); ok.textContent = `Fissato: ${tomorrow ? 'domani' : 'stasera'} alle ${label}.`; });
+  $('#ics').addEventListener('click', () => {
+    const { s, e, tomorrow, label } = slot(), now = new Date();
+    const utc = now.toISOString().replace(/[-:]/g, '').replace(/\.\d+/, '');
+    const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Guida a Jobra//IT', 'CALSCALE:GREGORIAN', 'BEGIN:VEVENT', 'UID:promemoria-' + now.getTime() + '@guida-jobra', 'DTSTAMP:' + utc, 'DTSTART:' + stamp(s), 'DTEND:' + stamp(e), 'SUMMARY:' + TITLE, 'DESCRIPTION:' + DESC.replace(/,/g, '\\,'), 'URL:' + JOBRA_URL, 'BEGIN:VALARM', 'TRIGGER:-PT0M', 'ACTION:DISPLAY', 'DESCRIPTION:È il momento dei tuoi 5 minuti', 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
+    const url = URL.createObjectURL(new Blob([ics], { type: 'text/calendar;charset=utf-8' }));
+    const a = document.createElement('a'); a.href = url; a.download = 'promemoria-jobra.ics'; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 4000);
+    ok.textContent = `Fissato: ${tomorrow ? 'domani' : 'stasera'} alle ${label}. Apri il file per aggiungerlo al calendario.`;
+  });
+})();
+</script>
+</body>
+</html>
